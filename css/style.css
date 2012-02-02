@@ -211,16 +211,24 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 
-body, html {
+html {
+  background-color: #111;
+}
+
+body {
   color: #e2c09a;
-  background-color: #5d3f32;
+  width: 980px;
+  margin: 0 auto;
 }
 
 header {
-  height: 110px;
-  background-color: #442d23;
+  float:left;
+  width: 980px;
+  background: url('../img/dotted.png') repeat-x scroll 0 bottom;
 }
 
+/* Gunt pink - #ff969a */
+/* Gunt green - #72ea91 */
 
 /* links */
   a {
@@ -234,21 +242,44 @@ header {
 
 /* headings */
   h1 {
-    color: #ededed;
-    display: inline-block;
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 48px;
-    margin: 28px 0 0 33px;
+    width: 441px;
+    height: 282px;
+    background: url('../img/logo.jpg') no-repeat scroll 0 0;
+    display: block;
+    text-indent: -99999px;
+    float:left;
   }
 
   h2 {
-    color: #8ed200;
+    color: #72ea91;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-transform:uppercase;
+    width: 480px;
+    float:left;
+    margin-top: 0;
+  }
+
+  p {
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  strong, em {
+    color: #ff969a;
   }
 
 /* lists */
   ul#primary-nav {
     float: right;
+    padding: 0;
+    margin-top: 300px;
+    margin-right: -10px;
+    margin-bottom: 0;
+    padding-bottom: 16px;
   }
 
   ul#primary-nav li {
@@ -256,19 +287,67 @@ header {
     float: left;
   }
 
+  ul#primary-nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 14px 10px 14px 10px;
+  }
+
+  ul#primary-nav li.selected a {
+    background: url('../img/arrow-up.png') no-repeat scroll 50% bottom;
+    color: #ff969a;
+  }
+
+  ul#primary-nav li a:hover {
+    color: #72ea91;
+  }
+  
+
 /* sections */
   .section {
     clear: both;
+    padding-bottom: 36px;
+    margin-top: 94px;
+    float:left;
+    width: 980px;
+    background: url('../img/dotted.png') repeat-x scroll 0 bottom;
+
   }
 
   .section-content div {
-    width: 350px;
-    float: left;
+    width: 480px;
+    padding-left: 20px;
+    float:left;
   }
 
   .section-content img {
     width: 560px;
     float: left;
+  }
+
+  .section .feature {
+    width: 980px;
+    height: 500px;
+    background: url('../img/feature.jpg') no-repeat scroll 0 0;
+    position: relative;
+    float:left;
+    margin-top: 36px;
+  }
+
+  .section .feature h2 {
+    font-size: 180px;
+    color: #ff969a;
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    text-transform: none;
+    position: absolute;
+    top: 152px;
+    left: 166px;
+    margin-bottom: 0;
   }
 
 /* specific section styles */
