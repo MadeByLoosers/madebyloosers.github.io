@@ -222,9 +222,13 @@ body {
 }
 
 header {
-  float:left;
+  position: fixed;
+  top: 0;
   width: 980px;
-  background: url('../img/dotted.png') repeat-x scroll 0 bottom;
+  height: 335px;
+  overflow: hidden;
+  background: url('../img/dotted.png') repeat-x scroll 0 bottom #111;
+  z-index: 100;
 }
 
 /* Gunt pink - #ff969a */
@@ -243,11 +247,14 @@ header {
 /* headings */
   h1 {
     width: 441px;
-    height: 282px;
-    background: url('../img/logo.jpg') no-repeat scroll 0 0;
+    height: 335px;
+    background: url('../img/logo.png') no-repeat scroll 0 0;
     display: block;
     text-indent: -99999px;
-    float:left;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -490px;
   }
 
   h2 {
@@ -274,12 +281,11 @@ header {
 
 /* lists */
   ul#primary-nav {
-    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     padding: 0;
-    margin-top: 300px;
-    margin-right: -10px;
-    margin-bottom: 0;
-    padding-bottom: 16px;
+    padding-bottom: 0;
   }
 
   ul#primary-nav li {
@@ -298,13 +304,22 @@ header {
   }
 
   ul#primary-nav li.selected a {
-    background: url('../img/arrow-up.png') no-repeat scroll 50% bottom;
+    background: url('../img/arrow-up.png') no-repeat scroll 50% -4px;
     color: #ff969a;
   }
 
   ul#primary-nav li a:hover {
     color: #72ea91;
   }
+
+  ul#primary-nav li a:hover, ul#primary-nav li.selected a:hover {
+    background: url('../img/arrow-up.png') no-repeat scroll 50% -54px;
+  }
+
+
+#main {
+  margin-top: 335px;
+}
   
 
 /* sections */
@@ -351,17 +366,33 @@ header {
   }
 
 /* specific section styles */
-  #approach img {
-    float: right;
+
+  #gmap {
+    width: 980px;
+    height: 500px;
+    display: block;
+    float:left;
+    position: relative;
+    z-index: 2000;
   }
 
-  #approach div {
-    float: left;
-    clear: left;
+  #gmap img {
+    max-width: none;
   }
+
+  #gmap div {
+    float:none;
+    width: auto;
+    padding: 0;
+  }
+
 
   #gunts img {
     width: 220px;
+  }
+
+  #gunts .section-content {
+    clear:both;
   }
 
 
