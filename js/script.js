@@ -109,8 +109,8 @@ GUNT.parallax = (function () {
 
 	
 	var settings = {
-		header: '', 		// header DOM element
-		headerHeight: 335 	// original header height
+		header: '',			// header DOM element
+		headerHeight: 335	// original header height
 	};
 
 
@@ -136,7 +136,7 @@ GUNT.parallax = (function () {
 			var scrollTop = $(window).scrollTop();
 
 			//resize header
-			if (scrollTop == 0) {
+			if (scrollTop === 0) {
 				//reset - fixes quick drag to top
 				s.header.css({'height': s.headerHeight});
 				s.header.find('h1').css({'top': '0', 'height': s.headerHeight});
@@ -227,7 +227,6 @@ GUNT.gmap = (function () {
 
 		var map = new google.maps.Map(document.getElementById("gmap"), s);
 
-
         // setup custom marker image
         var image = new google.maps.MarkerImage('img/map-marker.png',
             new google.maps.Size(181, 180), // image size
@@ -262,27 +261,5 @@ $(document).ready(function () {
 	GUNT.core.init();
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
