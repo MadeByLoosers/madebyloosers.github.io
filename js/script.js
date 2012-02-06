@@ -197,7 +197,7 @@ GUNT.gmap = (function () {
 			
 		var script = document.createElement("script");
 		script.type = "text/javascript";
-		script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyD9FCIq1OHIO4tPaV-euoM5W90SL6wb1yA&sensor=false&callback=GUNT.gmap.loadMap";
+		script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyBfbIwry2gb6I6P-Q2E7lQwa--ZZzUcEjM&sensor=false&callback=GUNT.gmap.loadMap";
 		document.body.appendChild(script);
 
 	};
@@ -207,11 +207,41 @@ GUNT.gmap = (function () {
 
 		var s = settings;
 
-		s.zoom = 17;
-		s.center = new google.maps.LatLng(51.5277, -0.081);
+		s.zoom = 14;
+        s.maxZoom = 14;
+        s.lng = -0.081;
+        s.lat = 51.5277;
+		s.center = new google.maps.LatLng(s.lat, s.lng);
 		s.mapTypeId = google.maps.MapTypeId.ROADMAP;
+        s.streetViewControl = false;
+        s.overviewMapControl = false;
+        s.mapTypeControl = false;
+        s.styles = [
+            {
+                featureType: "all",
+                stylers: [
+                  { saturation: -95 }
+                ]
+            }
+        ];
 
 		var map = new google.maps.Map(document.getElementById("gmap"), s);
+
+
+        // setup custom marker image
+        var image = new google.maps.MarkerImage('img/map-marker.png',
+            new google.maps.Size(181, 180), // image size
+            new google.maps.Point(0,0), // image origin
+            new google.maps.Point(90, 90) // image anchor
+        );
+
+        // add the marker
+        marker = new google.maps.Marker({
+            position: s.center,
+            map: map,
+            title: "Gunt London headquarters",
+            icon: image
+        });
 
 	};
 
