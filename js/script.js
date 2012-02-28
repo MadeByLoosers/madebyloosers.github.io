@@ -20,6 +20,8 @@ GUNT.core = (function () {
 
 		GUNT.startupRoutine.init();
 
+		GUNT.initLinks.init();
+
 		GUNT.gmap.init();
 
 		setTimeout(function () {
@@ -99,7 +101,34 @@ GUNT.startupRoutine = (function () {
 
 })();
 
+/*
+	misc actions on links
+ */
+GUNT.initLinks = (function(){
 
+	var settings = {
+		smooth : '#primary-nav a',
+		externalLinks : 'a[rel=external]'
+	};
+
+	function init() {
+
+		var s = settings;
+
+		$(s.smooth).smoothScroll();
+
+		$(s.externalLinks).click(function(e){
+			e.preventDefault();
+			window.open($(this).attr("href"), "_blank");
+		});
+		
+	};
+
+	return {
+		init : init
+	}
+
+})();
 
 /* 
 	Parallax

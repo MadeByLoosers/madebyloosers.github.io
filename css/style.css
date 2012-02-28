@@ -318,6 +318,7 @@ header {
 
 
 #main {
+  overflow: hidden;
   margin-top: 335px;
 }
   
@@ -326,7 +327,7 @@ header {
   .section {
     clear: both;
     padding-bottom: 36px;
-    margin-top: 94px;
+    padding-top: 94px;
     float:left;
     width: 980px;
     background: url('../img/dotted.png') repeat-x scroll 0 bottom;
@@ -393,6 +394,29 @@ header {
 
   #gunts .section-content {
     clear:both;
+  }
+
+
+/* footer */
+  footer {
+    text-align:right;
+    font-style:italic;
+    font-family:"Courier New", Courier, monospace;
+
+    margin-bottom:50px;
+  }
+  footer ul {
+    
+  }
+  footer ul li {
+    display: inline-block;
+  }
+  footer ul li a,
+  footer ul li a:visited {
+    color:#ccc;
+  }
+  footer ul li a:hover {
+    color: #72ea91;
   }
 
 
