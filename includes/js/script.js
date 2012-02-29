@@ -257,7 +257,7 @@ GUNT.gmap = (function () {
 		var map = new google.maps.Map(document.getElementById("gmap"), s);
 
         // setup custom marker image
-        var image = new google.maps.MarkerImage('img/map-marker.png',
+        var image = new google.maps.MarkerImage('includes/img/map-marker.png',
             new google.maps.Size(181, 180), // image size
             new google.maps.Point(0,0), // image origin
             new google.maps.Point(90, 90) // image anchor
