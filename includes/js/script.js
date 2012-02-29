@@ -150,51 +150,51 @@ GUNT.parallax = (function () {
 		s.header = $('header');
 		s.headerHeight = s.header.height();
 
-		bind();
+		// avoid fat header if page loads in scrolled state
+		calculate();
 
+		// update on scroll
+		$(window).scroll( function(){
+			calculate();
+		});
+		
 	};
 
-
-	function bind() {
-		
+	function calculate() {
 		var s = settings;
+		
+		//var height = $(document).height();
+		var scrollTop = $(window).scrollTop();
 
-		$(window).scroll( function () {
+		//resize header
+		if (scrollTop === 0) {
+			//reset - fixes quick drag to top
+			s.header.css({'height': s.headerHeight});
+			s.header.find('h1').css({'top': '0', 'height': s.headerHeight});
+
+		}
+		else if ((scrollTop < s.headerHeight) && (scrollTop < 280)) {
 			
-			//var height = $(document).height();
-			var scrollTop = $(window).scrollTop();
+			s.header.height(s.headerHeight - scrollTop);
 
-			//resize header
-			if (scrollTop === 0) {
-				//reset - fixes quick drag to top
-				s.header.css({'height': s.headerHeight});
-				s.header.find('h1').css({'top': '0', 'height': s.headerHeight});
+			s.header.find('h1').css({
+				'top': '-' + ((scrollTop / 2) - 15) + 'px',
+				'height': s.headerHeight - (( scrollTop / 2) + 18)
+			});
 
-			}
-			else if ((scrollTop < s.headerHeight) && (scrollTop < 280)) {
-				
-				s.header.height(s.headerHeight - scrollTop);
+		}
+		else {
 
-				s.header.find('h1').css({
-					'top': '-' + ((scrollTop / 2) - 15) + 'px',
-					'height': s.headerHeight - (( scrollTop / 2) + 18)
-				});
+			s.header.css({
+				'height': '50px'
+			});
 
-			}
-			else {
+			s.header.find('h1').css({
+				'top': '-125px',
+				'height': '174px'
+			});
 
-				s.header.css({
-					'height': '50px'
-				});
-
-				s.header.find('h1').css({
-					'top': '-125px',
-					'height': '174px'
-				});
-
-			}
-
-		});
+		}
 
 	};
 
