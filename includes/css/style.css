@@ -265,7 +265,7 @@ header {
     text-transform:uppercase;
     width: 480px;
     float:left;
-    margin-top: 0;
+    margin: 0;
   }
 
   p {
@@ -273,6 +273,7 @@ header {
     font-style: italic;
     color: #fff;
     font-size: 14px;
+    margin: 0;
   }
 
   strong, em {
@@ -334,14 +335,8 @@ header {
 
   }
 
-  .section-content div {
-    width: 480px;
-    padding-left: 20px;
-    float:left;
-  }
-
   .section-content img {
-    width: 560px;
+    width: 100%;
     float: left;
   }
 
