@@ -362,6 +362,40 @@ header {
   }
 
 /* specific section styles */
+  .slideshow {
+    position: relative;
+  }
+
+  .slideshow .slideshow-controls {
+    position: absolute;
+    left: 20%;
+    top: 0;
+
+  }
+
+  .slideshow .slideshow-slide {
+    position: relative;
+    height: 500px;
+    margin-bottom: 1em;
+  }
+
+  .slideshow .slideshow-slide h3, 
+  .slideshow .slideshow-slide p, 
+  .slideshow .slideshow-slide a {
+    width: 50%;
+    float: right;
+    clear: both;
+
+  }
+
+  .slideshow .slideshow-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+  }
+
 
   #gmap {
     width: 980px;
