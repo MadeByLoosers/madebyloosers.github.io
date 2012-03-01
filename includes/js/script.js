@@ -11,14 +11,14 @@ var GUNT = GUNT || {};
 
 /* 
 	GUNT Core
-*/
+	*/
 
-GUNT.core = (function () {
+	GUNT.core = (function () {
 
 
-	function init() {
+		function init() {
 
-		GUNT.startupRoutine.init();
+		//GUNT.startupRoutine.init();
 
 		GUNT.initLinks.init();
 
@@ -28,6 +28,19 @@ GUNT.core = (function () {
 			GUNT.parallax.init();
 		}, 1000);
 
+		// slideshow for the case studies section
+		$('.slideshow').addClass('slideshow-enabled').flexslider({
+			animation: "fade",  // or 'slide'
+			controlNav: false,
+			slideshow: true, // <-- auto play
+			controlsContainer: ".slideshow",
+			prevText: "&lt; Previous project", 
+			nextText: "Next project &gt;",
+			start: function(slider) {
+				// fixes all slides being visible at start
+				$('.slides li').not(':first').css('display', 'none');
+			},
+		});
 	};
 
 
@@ -42,14 +55,14 @@ GUNT.core = (function () {
 
 /* 
 	Startup routine
-*/
+	*/
 
-GUNT.startupRoutine = (function () {
+	GUNT.startupRoutine = (function () {
 
-	
-	var settings = {
-		delay: 0,
-		messages: [
+
+		var settings = {
+			delay: 0,
+			messages: [
 			'0% : - initialisation started',
 			'10% :: - enabling core',
 			'20% :: - sequential algorithms loading',
@@ -62,82 +75,82 @@ GUNT.startupRoutine = (function () {
 			'90% ::::::::: - preliminary system overrides disabled',
 			'100% ::::::::: - gunt activation complete',
 			'********************************\n    welcome to... the future    \n********************************'
-		]
-	};
+			]
+		};
 
 
-	function init() {
+		function init() {
 
-		var s = settings;
+			var s = settings;
 
-		for (var i = 0; i < s.messages.length; i++) {
-			
-			outputSystemMessage(s.messages[i]);
+			for (var i = 0; i < s.messages.length; i++) {
 
-		}
+				outputSystemMessage(s.messages[i]);
 
-	};
+			}
 
-
-	function outputSystemMessage( msg ) {
-
-		var s = settings;
-
-		s.delay += (Math.floor(Math.random()*11) * 100);
-
-		setTimeout(function () {
-			
-			console.log(msg);
-
-		}, s.delay);
-
-	};
+		};
 
 
-	return {
-		init : init
-	};
+		function outputSystemMessage( msg ) {
+
+			var s = settings;
+
+			s.delay += (Math.floor(Math.random()*11) * 100);
+
+			setTimeout(function () {
+
+				console.log(msg);
+
+			}, s.delay);
+
+		};
 
 
-})();
+		return {
+			init : init
+		};
+
+
+	})();
 
 /*
 	misc actions on links
- */
-GUNT.initLinks = (function(){
+	*/
+	GUNT.initLinks = (function(){
 
-	var settings = {
-		smooth : '#primary-nav a',
-		externalLinks : 'a[rel=external]'
-	};
+		var settings = {
+			smooth : '#primary-nav a',
+			externalLinks : 'a[rel=external]'
+		};
 
-	function init() {
+		function init() {
 
-		var s = settings;
+			var s = settings;
 
-		$(s.smooth).smoothScroll();
+			$(s.smooth).smoothScroll();
 
-		$(s.externalLinks).click(function(e){
-			e.preventDefault();
-			window.open($(this).attr("href"), "_blank");
-		});
-		
-	};
+			$(s.externalLinks).click(function(e){
+				e.preventDefault();
+				window.open($(this).attr("href"), "_blank");
+			});
 
-	return {
-		init : init
-	}
+		};
 
-})();
+		return {
+			init : init
+		}
+
+	})();
 
 /* 
 	Parallax
-*/
+	*/
 
-GUNT.parallax = (function () {
+	GUNT.parallax = (function () {
 
-	
-	var settings = {
+
+		var settings = {
 		header: '',			// header DOM element
 		headerHeight: 335	// original header height
 	};
@@ -210,74 +223,74 @@ GUNT.parallax = (function () {
 
 /* 
 	Google Maps
-*/
+	*/
 
-GUNT.gmap = (function () {
-
-	
-	var settings = {
-		
-	};
+	GUNT.gmap = (function () {
 
 
-	function init() {
+		var settings = {
 
-		var s = settings;
+		};
+
+
+		function init() {
+
+			var s = settings;
 			
-		var script = document.createElement("script");
-		script.type = "text/javascript";
-		script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyBfbIwry2gb6I6P-Q2E7lQwa--ZZzUcEjM&sensor=false&callback=GUNT.gmap.loadMap";
-		document.body.appendChild(script);
+			var script = document.createElement("script");
+			script.type = "text/javascript";
+			script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyBfbIwry2gb6I6P-Q2E7lQwa--ZZzUcEjM&sensor=false&callback=GUNT.gmap.loadMap";
+			document.body.appendChild(script);
 
-	};
+		};
 
 
-	function loadMap() {
+		function loadMap() {
 
-		var s = settings;
+			var s = settings;
 
-		s.zoom = 14;
-        s.maxZoom = 14;
-        s.lng = -0.081;
-        s.lat = 51.5277;
-		s.center = new google.maps.LatLng(s.lat, s.lng);
-		s.mapTypeId = google.maps.MapTypeId.ROADMAP;
-        s.streetViewControl = false;
-        s.overviewMapControl = false;
-        s.mapTypeControl = false;
-        s.styles = [
-            {
-                featureType: "all",
-                stylers: [
-                  { saturation: -95 }
-                ]
-            }
-        ];
+			s.zoom = 14;
+			s.maxZoom = 14;
+			s.lng = -0.081;
+			s.lat = 51.5277;
+			s.center = new google.maps.LatLng(s.lat, s.lng);
+			s.mapTypeId = google.maps.MapTypeId.ROADMAP;
+			s.streetViewControl = false;
+			s.overviewMapControl = false;
+			s.mapTypeControl = false;
+			s.styles = [
+			{
+				featureType: "all",
+				stylers: [
+				{ saturation: -95 }
+				]
+			}
+			];
 
-		var map = new google.maps.Map(document.getElementById("gmap"), s);
+			var map = new google.maps.Map(document.getElementById("gmap"), s);
 
         // setup custom marker image
         var image = new google.maps.MarkerImage('includes/img/map-marker.png',
             new google.maps.Size(181, 180), // image size
             new google.maps.Point(0,0), // image origin
             new google.maps.Point(90, 90) // image anchor
-        );
+            );
 
         // add the marker
         marker = new google.maps.Marker({
-            position: s.center,
-            map: map,
-            title: "Gunt London headquarters",
-            icon: image
+        	position: s.center,
+        	map: map,
+        	title: "Gunt London headquarters",
+        	icon: image
         });
 
-	};
+    };
 
 
-	return {
-		init : init,
-		loadMap: loadMap
-	};
+    return {
+    	init : init,
+    	loadMap: loadMap
+    };
 
 
 })();
