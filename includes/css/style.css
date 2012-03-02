@@ -97,7 +97,7 @@
    ========================================================================== */
 
    ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
-   dd { margin: 0 0 0 40px; }
+   dd { margin: 0; }
    nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
 
@@ -214,7 +214,7 @@
   }
 
   body {
-    color: #e2c09a;
+    color: #fff;
     width: 980px;
     margin: 0 auto;
   }
@@ -265,6 +265,15 @@
     width: 480px;
     float:left;
     margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  h4 {
+    margin: 0;
+    padding: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
   }
 
   /* links and paragraphs */
@@ -277,7 +286,7 @@
     color: #8ed200;
   }
 
-  p, a {
+  p, a, dl {
     font-family: "Courier New", Courier, monospace;
     font-style: italic;
     font-size: 14px;
@@ -437,9 +446,96 @@
     padding: 0;
   }
 
+  ul.gunts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-  #gunts img {
+  .gunts li {
     width: 220px;
+    height: 300px;
+    margin: 0 20px 20px 0;
+    background: transparent url(../img/team-sprite.jpg) no-repeat left top;
+    float: left;
+    z-index: 0;
+  }
+
+  /* additional background image for deamphasis */
+  .gunts li.de-emphasise {
+    background-color: transparent, transparent;
+    background-image: url(../img/bg-diagonals.png), url(../img/team-sprite.jpg);
+    background-repeat: repeat, no-repeat;
+    background-position: left top, left top;
+  }
+
+  .gunts li:hover {
+    background-position-y: bottom;
+  }
+
+  .gunts #gunts-pg {
+    background-position-x: 0;
+  }
+
+  .gunts #gunts-jb {
+    background-position-x: -220px;
+  }
+
+  .gunts #gunts-pxg {
+    background-position-x: -440px;
+  }
+
+  .gunts #gunts-ma {
+    background-position-x: -660px;
+  }
+
+  .gunts #gunts-ml {
+    background-position-x: -880px;
+  }
+
+  .gunts #gunts-cl {
+    background-position-x: -1100px;
+  }
+
+  .gunts #gunts-jl {
+    background-position-x: -1320px;
+  }
+
+  .gunts #gunts-np {
+    background-position-x: -1540px;
+  }
+
+  .gunts .info {
+    width: 420px;
+    height: 250px;
+    margin-left: 240px;
+    padding: 30px 20px 20px;
+    background-color: #72ea91;
+    position: absolute;
+    z-index: 50;
+  }
+
+  .gunts .info.alt-position {
+    margin-left: -480px;
+  }
+
+  .gunts .info h3 {
+    color: #111;
+    font-size: 30px;
+  }
+
+  .gunts .info h4 {
+    margin: 0 0 40px 0;
+    color: #111;
+    font-size: 15px;
+  }
+
+  .gunts .info p {
+    margin-bottom: 20px;
+  }
+
+  .gunts .info dd {
+    color: #111;
   }
 
   #gunts .section-content {

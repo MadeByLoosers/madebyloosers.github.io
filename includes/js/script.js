@@ -18,7 +18,7 @@ var GUNT = GUNT || {};
 
 		function init() {
 
-		//GUNT.startupRoutine.init();
+		GUNT.startupRoutine.init();
 
 		GUNT.initLinks.init();
 
@@ -28,21 +28,10 @@ var GUNT = GUNT || {};
 			GUNT.parallax.init();
 		}, 1000);
 
-		// slideshow for the case studies section
-		$('.slideshow').addClass('slideshow-enabled').flexslider({
-			animation: "fade",  // or 'slide'
-			controlNav: false,
-			slideshow: true, // <-- auto play
-			controlsContainer: ".slideshow",
-			prevText: "&lt; Previous project", 
-			nextText: "Next project &gt;",
-			start: function(slider) {
-				// fixes all slides being visible at start
-				$('.slides li').not(':first').css('display', 'none');
-			},
-		});
+		GUNT.gunts.init();
+		
+		GUNT.caseStudies.init();
 	};
-
 
 	return {
 		init : init
@@ -133,6 +122,103 @@ var GUNT = GUNT || {};
 			$(s.externalLinks).click(function(e){
 				e.preventDefault();
 				window.open($(this).attr("href"), "_blank");
+			});
+
+		};
+
+		return {
+			init : init
+		}
+
+	})();
+
+
+/*
+	The gunts section
+	*/
+	GUNT.gunts = (function(){
+
+		var settings = {};
+
+		function bonus() {
+			setInterval(function () {
+				var value;
+
+				$('.gunts li').each(function(index){
+					var that = this;
+
+					if ($(that).css('background-position-y') == '100%') {
+						value = '0%';
+					} else {
+						value = '100%';
+					};
+
+					setTimeout(function(){
+							$(that).css('background-position-y', value);
+					}, Math.random() * 200);
+				});
+			}, 150);
+		}
+
+		function init() {
+
+			var s = settings;
+
+			// highlight and de-emphasise on mouseover
+			$('.gunts li').on({
+				mouseenter: function(){
+					$(this).find('div').removeClass("hidden");
+					$(this).siblings().addClass('de-emphasise');
+				},
+				mouseleave: function(){
+					$(this).find('div').addClass("hidden");
+					$(this).siblings().removeClass('de-emphasise');
+				}
+			});
+
+			// enter the password to activate bonus mode
+			var kkeys = [], password = "71,85,78,84,83"; //this spells gunts
+        	$(window).on('keydown', function(e){
+                kkeys.push( e.keyCode );
+                if ( kkeys.toString().indexOf( password ) >= 0 ) {
+                	location.href = "#gunts";
+                    bonus();
+                }
+	        });
+
+		};
+
+		return {
+			init : init,
+			bonus: bonus
+		}
+
+	})();
+
+
+/*
+	The projects section
+	*/
+	GUNT.caseStudies = (function(){
+
+		var settings = {};
+
+		function init() {
+
+			var s = settings;
+
+			// slideshow for the case studies section
+			$('.slideshow').addClass('slideshow-enabled').flexslider({
+				animation: "fade",  // or 'slide'
+				controlNav: false,
+				slideshow: true, // <-- auto play
+				controlsContainer: ".slideshow",
+				prevText: "&lt; Previous project", 
+				nextText: "Next project &gt;",
+				start: function(slider) {
+					// fixes all slides being visible at start
+					$('.slides li').not(':first').css('display', 'none');
+				},
 			});
 
 		};
