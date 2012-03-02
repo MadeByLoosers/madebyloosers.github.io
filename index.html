@@ -23,7 +23,8 @@
 
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="includes/css/style.css">
+  <link rel="stylesheet" href="includes/css/flexslider.css" type="text/css">
   <!-- end CSS-->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -31,7 +32,7 @@
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <script src="includes/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
 <body>
@@ -53,88 +54,204 @@
     </header>
 
     <div id="main" role="main">
-
       <div id="home" class="section clearfix">
-
-        <h2>So future it hurts</h2>
-
-        <div class="section-content">
-
-          <div class="col">
-
-            <p><strong>{gunt}</strong> create bleeding edge campaigns for the post digital age.</p>
-            <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
-            <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
-            <p><strong>{Gunt}</strong> is an independent digital agency established in <strong>{London}</strong> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
-            <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
-            <p>While we set up our portfolio, we want to share our thoughts with you.</p>
-          </div>
-
+        <div class="section-header clearfix">
+          <h2>So future it hurts</h2>
+          <p><strong>{gunt}</strong> create bleeding edge campaigns for the post digital age.</p>
+          <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
+          <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
+          <p><strong>{Gunt}</strong> is an independent digital agency established in <strong>{London}</strong> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
+          <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
+          <p>While we set up our portfolio, we want to share our thoughts with you.</p>
         </div>
 
-        <div class="feature">
-
+        <div class="section-content feature">
           <h2>{gunt}</h2>
-
         </div>
-
       </div>
+
       <div id="approach" class="section clearfix">
-
-        <h2>Our Approach</h2>
-
-        <div class="section-content">
-
-          <div class="col">
-
-            <p><strong>{Something}</strong> about our approach</p>
-            <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
-            <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
-          
-          </div>
-
-          <div class="feature">
-
-            <h2>infographic</h2>
-
+        <div class="section-header clearfix">
+          <h2>Our Approach</h2>
+          <p><strong>{Something}</strong> about our approach</p>
+          <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
+          <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
         </div>
-  
+
+        <div class="section-content feature">
+          <h2>infographic</h2>
         </div>
       </div>
+
       <div id="gunts" class="section clearfix">
-        <h2>Gunts</h2>
+        <div class="section-header clearfix">
+          <h2>The Gunts</h2>
+        </div>
+        
         <div class="section-content">
-          <img src="img/booth.jpg" alt="" />
-          <img src="img/booth.jpg" alt="" />
-          <img src="img/booth.jpg" alt="" />
-          <img src="img/booth.jpg" alt="" />
-          <img src="img/booth.jpg" alt="" />
-          <img src="img/booth.jpg" alt="" />
-          <img src="img/booth.jpg" alt="" />
-          <img src="img/booth.jpg" alt="" />
+          <ul class="gunts clearfix">
+            <li id="gunts-pg">
+              <div class="info hidden">
+                <h3>Pete</h3>
+                <h4>Creative Director</h4>
+                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+            <li id="gunts-jb">
+              <div class="info hidden">
+                <h3>James</h3>
+                <h4>Account Director</h4>
+                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+            <li id="gunts-pxg">
+              <div class="info hidden alt-position">
+                <h3>Pete X</h3>
+                <h4>Creative Director and Founder</h4>
+                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+            <li id="gunts-ma">
+              <div class="info hidden alt-position">
+                <h3>Mike</h3>
+                <h4>Creative Director</h4>
+                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+            <li id="gunts-ml">
+              <div class="info hidden">
+                <h3>Marie</h3>
+                <h4>Strategy Director</h4>
+                <p>She’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+            <li id="gunts-cl">
+              <div class="info hidden">
+                <h3>Caz</h3>
+                <h4>Innovations and Digital Accelerations Director</h4>
+                <p>She’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+            <li id="gunts-jl">
+              <div class="info hidden alt-position">
+                <h3>Big John</h3>
+                <h4>Creative Director</h4>
+                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+            <li id="gunts-np">
+              <div class="info hidden alt-position">
+                <h3>Nico</h3>
+                <h4>Creative Director</h4>
+                <p>Merde</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi lamb</dd>
+                </dl>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
+
       <div id="case-studies" class="section clearfix">
-        <h2>Case studies</h2>
+        <div class="section-header clearfix">
+          <h2>Case studies</h2>
+          <p>Hot girls and metal</p>
+          <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
+          <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
+        </div>
+
         <div class="section-content">
-          <div class="col">
-            <p>Hot girls and metal</p>
-            <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
-            <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
-          </div>
-          <img src="http://placehold.it/560x280" alt="" />
+            <div class="slideshow">
+              <ul class="slides">
+                <li class="slideshow-slide">
+                  <h3>Hotgirlsandmetal.com</h3>
+                  <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
+                  <p>While we set up our portfolio, we want to share our thoughts with you.</p>
+                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
+                  <img src="includes/img/project-placeholder.jpg" alt="" />
+                </li>
+              
+                <li class="slideshow-slide">
+                  <h3>beeswearinghats.com</h3>
+                  <p>We are passionate collective of</p>
+                  <p>Looking to engage consumers in a innovative edgy way.</p>
+                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
+                  <img src="includes/img/feature.jpg" alt="" />
+                </li>
+              
+                <li class="slideshow-slide">
+                  <h3>Spactacles</h3>
+                  <p>Creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
+                  <p>Overwhelming amount of information and noise surrounding us.</p>
+                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
+                  <img src="includes/img/project-placeholder.jpg" alt="" />
+                </li>
+
+                 <li class="slideshow-slide">
+                  <h3>Look at all these incredible projects</h3>
+                  <p>We are passionate collective of</p>
+                  <p>Looking to engage consumers in a innovative edgy way.</p>
+                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
+                  <img src="includes/img/feature.jpg" alt="" />
+                </li>       
+              </ul>
+            </div>
         </div>
       </div>
+
       <div id="contact" class="section clearfix">
-        <h2>Contact us</h2>
-      
-        <div id="gmap"></div>
+        <div class="section-header clearfix">
+          <h2>Contact us</h2>
+        </div>
+                
+        <div class="section-content">
+          <div id="gmap"><!-- put static map here --></div>
+        </div>
 
       </div>
 
     </div>
     <footer>
-
+      <ul>
+        <li><a rel="external" href="http://www.facebook.com/guntlondon">Facebook</a> - </li>
+        <li><a rel="external" href="http://www.twitter.com/guntlondon">Twitter</a> - </li>
+        <li><a rel="external" href="http://www.pinterest.com/guntlondon">Pinterest</a> - </li>
+        <li><a rel="external" href="http://www.flickr.com/photos/guntlondon">FlickR</a> - </li>
+        <li><a rel="external" href="http://www.linkedin.com/guntlondon">LinkedIn</a> - </li>
+        <li><a rel="external" href="http://www.github.com/guntlondon">Github</a> - </li>
+        <li><a rel="external" href="http://www.lastfm.com/guntlondon">LastFM</a> - </li>
+        <li><a rel="external" href="http://www.vimeo.com/guntlondon">Vimeo</a></li>
+      </ul>
     </footer>
      
   </div> <!--! end of #container -->
@@ -144,12 +261,14 @@
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="includes/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
 
   <!-- scripts concatenated and minified via ant build script-->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
+  <script defer src="includes/js/plugins.js"></script>
+  <script defer src="includes/js/mylibs/jquery.smoothscroll.js"></script>
+    <script defer src="includes/js/mylibs/jquery.flexslider.min.js"></script>
+  <script defer src="includes/js/script.js"></script>
   <!-- end scripts-->
 
 	
