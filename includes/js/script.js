@@ -536,6 +536,10 @@ GUNT.goatse = (function(){
 			s.maxZoom = 14;
 			s.lng = -0.081;
 			s.lat = 51.5277;
+			s.zoomControl = false;
+			s.scaleControl = false;
+			s.scrollwheel = false;
+			s.disableDoubleClickZoom = true;
 			s.center = new google.maps.LatLng(s.lat, s.lng);
 			s.mapTypeId = google.maps.MapTypeId.ROADMAP;
 			s.streetViewControl = false;
@@ -586,5 +590,3 @@ $(document).ready(function () {
 	GUNT.core.init();
 
 });
-
-
