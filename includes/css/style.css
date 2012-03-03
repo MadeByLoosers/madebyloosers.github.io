@@ -604,6 +604,7 @@
     color:#000;
 
     margin:100px 0 0;
+    overflow:hidden;
   }
   footer .footer-container {
     
@@ -619,7 +620,7 @@
 
   footer ul {
     margin:0;
-    padding: 25px 0 100px;
+    padding: 25px 0 30px 100px;
   }
   footer ul li {
     display: inline-block;
@@ -632,6 +633,11 @@
   }
   footer ul li a:hover {
     color: #72ea91;
+  }
+
+  footer img { 
+    float:left;
+    margin-bottom:15px;
   }
 
 
