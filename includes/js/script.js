@@ -359,11 +359,12 @@ GUNT.goatse = (function(){
 			$('.gunts li .photo').on({
 				mouseenter: function(){
 					$(this).next().removeClass("hidden");
-					$(this).parent().siblings().addClass('de-emphasise');
+					$('.photo').addClass('de-emphasise'); 
+					$(this).removeClass('de-emphasise');
 				},
 				mouseleave: function(){
 					$(this).next().addClass("hidden");
-					$(this).parent().siblings().removeClass('de-emphasise');
+					$('.photo').removeClass('de-emphasise');
 				}
 			});
 
