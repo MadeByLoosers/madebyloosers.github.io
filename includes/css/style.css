@@ -229,7 +229,7 @@
     height: 335px;
     overflow: hidden;
     background: url('../img/dotted.png') repeat-x scroll 0 bottom #111;
-    z-index: 100;
+    z-index: 2001;
   }
 
   /* Gunt pink - #ff969a */
