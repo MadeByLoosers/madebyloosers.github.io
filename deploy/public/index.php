@@ -18,39 +18,21 @@
 
 ?>
 <!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
 
-  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
-       More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>Gunt London - <?php echo $tagLine; ?></title>
   <meta name="description" content="">
   <meta name="author" content="Captain Gunt">
-
-  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-  <!-- CSS: implied media=all -->
-  <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="includes/css/style.css">
   <link rel="stylesheet" href="includes/css/flexslider.css" type="text/css">
-  <!-- end CSS-->
-
-  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-
-  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
-       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
-       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
   <script src="includes/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
@@ -225,46 +207,41 @@
         <div class="section-header clearfix">
           <h2>Case studies</h2>
           <div class="content">
-            <p><span>{Gunt}</span> is an independent digital agency established in <span>{London}</span> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
+            <p><strong>{gunt}</strong> is an independent digital agency established in <strong>{London}</strong> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
             <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
             <p>While we set up our portfolio, we want to share our thoughts with you.</p>
           </div>
         </div>
 
         <div class="section-content">
-            <div class="slideshow">
+          <div class="slideshow">
               <ul class="slides">
                 <li class="slideshow-slide">
                   <h3>Hotgirlsandmetal.com</h3>
-                  <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
-                  <p>While we set up our portfolio, we want to share our thoughts with you.</p>
+                  <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
+                  <br/>
+                  The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/project-placeholder.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
                   <h3>beeswearinghats.com</h3>
-                  <p>We are passionate collective of</p>
-                  <p>Looking to engage consumers in a innovative edgy way.</p>
+                  <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/feature.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
                   <h3>Spactacles</h3>
-                  <p>Creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
-                  <p>Overwhelming amount of information and noise surrounding us.</p>
+                  <p>Emerging onto the East-London Spackcore scene like warriors from battlesmoke, Spactacles were a shot in the arm to a genre that was dangerously on the verge of self-parody.
+                  <br/>  
+                  Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressively physical live show. Gorrilaz later copied this.
+                  <br/>
+                  Spactacles are currently on indefinite hiatus.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/project-placeholder.jpg" alt="" />
-                </li>
-
-                 <li class="slideshow-slide">
-                  <h3>Look at all these incredible projects</h3>
-                  <p>We are passionate collective of</p>
-                  <p>Looking to engage consumers in a innovative edgy way.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
-                  <img src="includes/img/feature.jpg" alt="" />
-                </li>       
+                </li>      
               </ul>
             </div>
         </div>
@@ -287,7 +264,8 @@
 
     </div>
      
-  </div> <!--! end of #container -->
+  </div>
+</div>
 
   <footer>
     <div class="footer-container">
@@ -306,25 +284,16 @@
     </div>
   </footer>
 
-
-  <!-- JavaScript at the bottom for fast page loading -->
-
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="includes/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
-
-  <!-- scripts concatenated and minified via ant build script-->
   <script defer src="includes/js/plugins.js"></script>
-    <script defer src="includes/js/mylibs/raphael.js"></script>
+  <script defer src="includes/js/mylibs/raphael.js"></script>
   <script defer src="includes/js/mylibs/jquery.smoothscroll.js"></script>
-    <script defer src="includes/js/mylibs/jquery.flexslider.min.js"></script>
-    <script defer src="includes/js/mylibs/waypoints.min.js"></script>
+  <script defer src="includes/js/mylibs/jquery.flexslider.min.js"></script>
+  <script defer src="includes/js/mylibs/waypoints.min.js"></script>
   <script defer src="includes/js/script.js"></script>
-  <!-- end scripts-->
-
-	
-  <!-- Change UA-XXXXX-X to be your site's ID -->
+  
   <script>
     window._gaq = [['_setAccount','UA-29684348-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
@@ -332,13 +301,9 @@
     });
   </script>
 
-
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-  
+  <![endif]-->  
 </body>
 </html>
