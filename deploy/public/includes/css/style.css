@@ -436,15 +436,25 @@
 
   #home {
     padding-top: 57px;
+    padding-bottom: 40px;
   }
 
   #approach {
-    padding-top: 133px;
+    padding-top: 94px;
   }
 
   /* Goatsee */
   .section .goatsee {
     background: none;
+    padding-bottom: 40px;
+  }
+
+  #gunts, #case-studies {
+    padding-top: 93px;
+  }
+
+  #contact {
+    padding-top: 96px;
   }
 
   #contact h2 {
