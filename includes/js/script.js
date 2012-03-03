@@ -339,14 +339,10 @@ GUNT.goatse = (function(){
 			setInterval(function () {
 				var value;
 
-				$('.gunts li').each(function(index){
+				$('.gunts li .photo').each(function(index){
 					var that = this;
 
-					if ($(that).css('background-position-y') == '100%') {
-						value = '0%';
-					} else {
-						value = '100%';
-					};
+					value = $(that).css('background-position-y') == '100%' ? '0%' : '100%' ;
 
 					setTimeout(function(){
 							$(that).css('background-position-y', value);
@@ -360,14 +356,14 @@ GUNT.goatse = (function(){
 			var s = settings;
 
 			// highlight and de-emphasise on mouseover
-			$('.gunts li').on({
+			$('.gunts li .photo').on({
 				mouseenter: function(){
-					$(this).find('div').removeClass("hidden");
-					$(this).siblings().addClass('de-emphasise');
+					$(this).next().removeClass("hidden");
+					$(this).parent().siblings().addClass('de-emphasise');
 				},
 				mouseleave: function(){
-					$(this).find('div').addClass("hidden");
-					$(this).siblings().removeClass('de-emphasise');
+					$(this).next().addClass("hidden");
+					$(this).parent().siblings().removeClass('de-emphasise');
 				}
 			});
 
