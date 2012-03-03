@@ -281,7 +281,7 @@
     text-transform:uppercase;
     width: 480px;
     float:left;
-    margin: 0;
+    margin: 4px 0 0 0;
     letter-spacing: -0.03em;
     line-height: 81px;
     font-weight: normal;
@@ -319,9 +319,9 @@
 
   p, a, dl {
     font-family: Georgia, monospace;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 26px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     margin: 0;
   }
 
@@ -331,6 +331,7 @@
 
   p {
     color: #fff;
+    margin-bottom:1em;
   }
 
   strong, em {
@@ -489,6 +490,7 @@
     float:left;
     position: relative;
     z-index: 2000;
+    margin-top:52px;
   }
 
   #gmap img {
