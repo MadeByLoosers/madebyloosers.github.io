@@ -215,6 +215,9 @@
 
   body {
     color: #fff;
+  }
+
+  #container {
     width: 980px;
     margin: 0 auto;
   }
@@ -383,6 +386,11 @@
     margin-bottom: 0;
   }
 
+    /* Goatsee */
+    .section .goatsee {
+      background: none;
+    }
+
   /* specific section styles */
   .slideshow {
     position: relative;
@@ -547,19 +555,40 @@
   footer {
     text-align:right;
     font-style:italic;
-    font-family:"Courier New", Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:14px;
 
-    margin-bottom:50px;
+    background:#777;
+    color:#000;
+
+    margin:100px 0 0;
   }
-  footer ul {
+  footer .footer-container {
+    
+    width: 980px;
+    margin: 0 auto;
+  }
 
+  footer .copyright {
+    display: block;
+    float: left;
+    padding: 25px 0 0;
+  }
+
+  footer ul {
+    margin:0;
+    padding: 25px 0 100px;
   }
   footer ul li {
     display: inline-block;
+    margin-right:10px;
   }
   footer ul li a,
   footer ul li a:visited {
-    color:#ccc;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000;
   }
   footer ul li a:hover {
     color: #72ea91;
