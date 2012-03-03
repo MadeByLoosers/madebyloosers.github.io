@@ -205,6 +205,19 @@
    td { vertical-align: top; }
 
 
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+   @font-face {
+    font-family: "Raleway Thin";
+    src: url('../webfonts/raleway_thin-webfont.eot');
+    src: url('../webfonts/raleway_thin-webfont.ttf') format('truetype'),
+         url('../webfonts/raleway_thin-webfont.svg') format('svg'),
+         url('../webfonts/raleway_thin-webfont.woff') format('woff');
+
+  }
+
 /* ==|== primary styles =====================================================
    Author: 
    ========================================================================== */
@@ -220,13 +233,14 @@
   #container {
     width: 980px;
     margin: 0 auto;
+    sborder: 1px solid #fff;
   }
 
   header {
     position: fixed;
     top: 0;
     width: 980px;
-    height: 335px;
+    height: 300px;
     overflow: hidden;
     background: url('../img/dotted.png') repeat-x scroll 0 bottom #111;
     z-index: 2001;
@@ -237,26 +251,40 @@
 
   /* headings */
   h1 {
+    /*
     width: 441px;
     height: 335px;
-    background: url('../img/logo.png') no-repeat scroll 0 0;
+    
     display: block;
+    
+    position: fixed;
+
     text-indent: -99999px;
     position: absolute;
     top: 0;
     left: 50%;
     margin: 0 0 0 -490px;
+    */
+    background: url('../img/logo.png') no-repeat scroll 0 0;
+    text-indent: -99999px;
+    top: 2px;
+    width: 360px;
+    height: 261px;
+    left: 20px;
+    position: absolute;
   }
 
   h2 {
     color: #72ea91;
     font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     text-transform:uppercase;
     width: 480px;
     float:left;
     margin: 0;
+    letter-spacing: -0.03em;
+    line-height: 81px;
+    font-weight: normal;
   }
 
   h3 {
@@ -290,11 +318,15 @@
   }
 
   p, a, dl {
-    font-family: "Courier New", Courier, monospace;
-    font-style: italic;
-    font-size: 14px;
+    font-family: Georgia, monospace;
+    font-size: 12px;
+    line-height: 26px;
     font-weight: bold;
     margin: 0;
+  }
+
+  p, dl {
+    font-style: italic;
   }
 
   p {
@@ -312,25 +344,26 @@
     right: 0;
     padding: 0;
     padding-bottom: 0;
+    margin-bottom: 6px;
   }
 
   ul#primary-nav li {
     display: block;
     float: left;
+    margin-left: 36px;
   }
 
   ul#primary-nav li a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
+    font-size: 15px;
     color: #fff;
-    font-style: italic;
-    font-weight: bold;
     text-transform: uppercase;
-    padding: 14px 10px 14px 10px;
+    font-weight: normal;
+    padding: 14px 0;
   }
 
   ul#primary-nav li.selected a {
-    background: url('../img/arrow-up.png') no-repeat scroll 50% -4px;
+    background: url('../img/arrow-up.png') no-repeat scroll 50% -13px;
     color: #ff969a;
   }
 
@@ -342,22 +375,18 @@
     background: url('../img/arrow-up.png') no-repeat scroll 50% -54px;
   }
 
-
   #main {
     overflow: hidden;
     margin-top: 335px;
   }
-  
 
   /* sections */
   .section {
     clear: both;
-    padding-bottom: 36px;
-    padding-top: 94px;
     float:left;
     width: 980px;
     background: url('../img/dotted.png') repeat-x scroll 0 bottom;
-
+    padding-top: 100px;
   }
 
   .section-content img {
@@ -371,7 +400,7 @@
     background: url('../img/feature.jpg') no-repeat scroll 0 0;
     position: relative;
     float:left;
-    margin-top: 36px;
+    margin-top: 54px;
   }
 
   .section .feature h2 {
@@ -386,14 +415,30 @@
     margin-bottom: 0;
   }
 
-    /* Goatse */
-    .section .goatse {
-      background: url(../img/bg_infographic.png);
-    }
+  .section .content {
+    width: 460px;
+    padding: 0 20px;
+    float: right;
+  }
+
+  /* Home */
+  #home {
+    padding-top: 57px;
+  }
+
+  #approach {
+    padding-top: 133px;
+  }
+
+  /* Goatsee */
+  .section .goatsee {
+    background: none;
+  }
 
   /* specific section styles */
   .slideshow {
     position: relative;
+    margin-top: 54px;
   }
 
   .slideshow ul {
@@ -429,11 +474,13 @@
   /* slideshow navigation */
   .flex-direction-nav {
     position: absolute;
-    left: 30%;
-    top: 27px;
-
+    right: 504px;
+    top: 21px;
   }
 
+  .flex-direction-nav li {
+    float: right;
+  }
 
   #gmap {
     width: 980px;
@@ -458,6 +505,10 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 55px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
   }
 
   .gunts li {

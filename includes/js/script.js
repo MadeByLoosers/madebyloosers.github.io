@@ -22,7 +22,7 @@ var GUNT = GUNT || {};
 
 		GUNT.waypoints.init();
 
-		GUNT.goatse.init();
+		//GUNT.goatse.init();
 
 		GUNT.initLinks.init();
 
