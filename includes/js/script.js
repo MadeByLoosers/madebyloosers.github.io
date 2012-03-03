@@ -20,7 +20,7 @@ var GUNT = GUNT || {};
 
 		GUNT.startupRoutine.init();
 
-		GUNT.goatsee.init();
+		//GUNT.goatsee.init();
 
 		GUNT.initLinks.init();
 
