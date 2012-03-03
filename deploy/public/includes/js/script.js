@@ -412,7 +412,7 @@ GUNT.goatse = (function(){
 				start: function(slider) {
 					// fixes all slides being visible at start
 					$('.slides li').not(':first').css('display', 'none');
-				},
+				}
 			});
 
 		};
