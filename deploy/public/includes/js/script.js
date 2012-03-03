@@ -18,7 +18,7 @@ var GUNT = GUNT || {};
 
 		function init() {
 
-		GUNT.startupRoutine.init();
+		//GUNT.startupRoutine.init();
 
 		GUNT.waypoints.init();
 
@@ -115,7 +115,6 @@ GUNT.waypoints = (function(){
 
 	function init () {
 		
-		console.log("init waypoints");
 		$('.section').waypoint({
 			offset: '30%'
 		});
@@ -461,35 +460,31 @@ GUNT.goatse = (function(){
 		var scrollTop = $(window).scrollTop();
 
 		//resize header
-		if (scrollTop === 0) {
+		if (scrollTop <= 0) {
 			//reset - fixes quick drag to top
 			s.header.css({'height': s.headerHeight});
-			s.header.find('h1').css({'top': '0', 'height': s.headerHeight});
-
+			s.header.find('h1').css({'height': s.headerHeight});
+			s.header.find('h1').css({'top': '2px'});
 		}
-		else if ((scrollTop < s.headerHeight) && (scrollTop < 280)) {
-			
+		else if ((scrollTop < s.headerHeight) && (scrollTop < 250)) {
 			s.header.height(s.headerHeight - scrollTop);
 
 			s.header.find('h1').css({
 				'top': '-' + ((scrollTop / 2) - 15) + 'px',
 				'height': s.headerHeight - (( scrollTop / 2) + 18)
 			});
-
 		}
 		else {
-
 			s.header.css({
 				'height': '50px'
 			});
 
 			s.header.find('h1').css({
-				'top': '-125px',
+				'top': '-109px',
 				'height': '174px'
 			});
 
 		}
-
 	};
 
 
