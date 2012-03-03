@@ -280,7 +280,7 @@
         <li><a rel="external" href="http://www.flickr.com/photos/guntlondon">FlickR</a></li>
         <li><a rel="external" href="http://www.linkedin.com/guntlondon">LinkedIn</a></li>
         <li><a rel="external" href="http://www.github.com/guntlondon">Github</a></li>
-        <li><a rel="external" href="http://www.lastfm.com/guntlondon">LastFM</a></li>
+        <li><a rel="external" href="http://www.lastfm.com/user/guntlondon">LastFM</a></li>
         <li><a rel="external" href="http://www.vimeo.com/guntlondon">Vimeo</a></li>
       </ul>
       <img src="includes/img/hmtl6-logo.png" alt="HMTL6 logo" />
