@@ -254,7 +254,7 @@
                   <h3>Spactacles</h3>
                   <p>Emerging onto the East-London Spackcore scene like warriors from battlesmoke, Spactacles were a shot in the arm to a genre that was dangerously on the verge of self-parody.
                   <br/>  
-                  Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressive physical live show. Gorrilaz later copied this.
+                  Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressively physical live show. Gorrilaz later copied this.
                   <br/>
                   Spactacles are currently on indefinite hiatus.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
