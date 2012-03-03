@@ -241,15 +241,7 @@
                   Spactacles are currently on indefinite hiatus.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/project-placeholder.jpg" alt="" />
-                </li>
-
-                 <li class="slideshow-slide">
-                  <h3>Look at all these incredible projects</h3>
-                  <p>We are passionate collective of</p>
-                  <p>Looking to engage consumers in a innovative edgy way.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
-                  <img src="includes/img/feature.jpg" alt="" />
-                </li>       
+                </li>      
               </ul>
             </div>
         </div>
