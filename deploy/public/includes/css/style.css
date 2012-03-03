@@ -241,7 +241,7 @@
   #container {
     width: 980px;
     margin: 0 auto;
-    sborder: 1px solid #fff;
+    /*border: 1px solid #fff;*/
   }
 
   header {
@@ -759,7 +759,7 @@
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 480px) {
+  @media only screen and (min-width: 480px) {
     /* Style adjustments for viewports 480px and over go here */
 
   }
@@ -770,9 +770,98 @@
   }
 
   @media only screen and (max-width: 980px) {
-    
+  
+  }
 
 
+  /* Gunt london mobile styles */
+  @media only screen and (max-width: 767px) {
+    img {
+      max-width:100% !important;
+      height:auto !important;
+    }
+
+    #container,
+    header,
+    h1, h2, h3,
+    .section,
+    .section .feature,
+    .section .content,
+    #approach {
+      position:static;
+      height:auto;
+      width:auto;
+      float:none;
+      padding:0;
+      margin-top:0;
+      margin-bottom:0;
+    }
+
+    #container {
+      width:95%;
+    }
+
+    ul#primary-nav {
+      position:static;
+    }
+
+    header {
+      
+    }
+
+    h2 {
+      font-size:36px;
+      line-height:1;
+      margin-top:30px;
+      margin-bottom:10px;
+    }
+
+    #main {
+      overflow: auto;
+      margin-top: 0;
+    }
+
+    .slideshow {
+      margin-top: 0;
+      width:100%;
+      overflow:hidden;
+    }
+
+    .slideshow .slideshow-slide {
+      position: relative;
+      margin-top:35px;
+      padding-top:200px;
+      height:auto;
+    }
+
+    .slideshow .slideshow-slide h3, 
+    .slideshow .slideshow-slide p, 
+    .slideshow .slideshow-slide a {
+      width: 100%;
+      float: none;
+      padding-right: 0;
+    }
+
+    .flex-direction-nav {
+      position: absolute;
+      left:0;
+      top:0;
+      width: 100%;
+    }
+
+    .flex-direction-nav li:first-child {
+      float:left;
+    }
+
+    .flex-direction-nav li {
+      float:right;
+      margin:0;
+    }
+
+    #gmap {
+      width: 100%;
+      height: 300px;
+    }
   }
 
 
