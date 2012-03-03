@@ -20,7 +20,9 @@ var GUNT = GUNT || {};
 
 		GUNT.startupRoutine.init();
 
-		GUNT.goatsee.init();
+		GUNT.waypoints.init();
+
+		//GUNT.goatse.init();
 
 		GUNT.initLinks.init();
 
@@ -106,14 +108,49 @@ var GUNT = GUNT || {};
 	})();
 
 
+GUNT.waypoints = (function(){
+	
+
+	var settings = {};
+
+	function init () {
+		
+		console.log("init waypoints");
+		$('.section').waypoint({
+			offset: '30%'
+		});
+		$('body').delegate('.section', 'waypoint.reached', function(event, direction) {
+
+			var 
+				target = $(event.target).attr("id"),
+				$active = $( "#primary-nav a[href=#" + target + "]" ).parent();
+			if ( direction === "up" ) {
+				$active = $active.prev();
+			}
+
+			// if ( target == "approach" ) GUNT.goatse.animate();
+
+			$("#primary-nav li.selected").removeClass("selected");
+			$active.addClass("selected");
+
+		});
+
+	};
+
+	return {
+		init : init
+	}
+
+})();
+
 /*
-	init goatsee graphic
+	init goatse graphic
  */
-GUNT.goatsee = (function(){
+GUNT.goatse = (function(){
 	
 	var 
 		settings = {},
-		goatsee = null,
+		goatse = null,
 
 		brand,
 		fingerLeft1, fingerLeft2, fingerLeft3,
@@ -129,61 +166,61 @@ GUNT.goatsee = (function(){
 		],
 
 		initPositions = [
-			{ x : 400, y : 130 },
+			{ x : 400, y : 160 },
 			{ x : 350, y : 250 },
-			{ x : 400, y : 370 },
-			{ x : 580, y : 130 },
+			{ x : 400, y : 340 },
+			{ x : 580, y : 160 },
 			{ x : 630, y : 250 },
-			{ x : 580, y : 370 }
+			{ x : 580, y : 340 }
 		],
 
 		finalPositions = [
-			{ x : 330, y : 100 },
-			{ x : 280, y : 250 },
-			{ x : 330, y : 400 },
-			{ x : 650, y : 100 },
-			{ x : 700, y : 250 },
-			{ x : 650, y : 400 }
+			{ x : 350, y : 90 },
+			{ x : 260, y : 250 },
+			{ x : 350, y : 390 },
+			{ x : 670, y : 100 },
+			{ x : 720, y : 250 },
+			{ x : 670, y : 400 }
 		];
 
 	function init () {
-		createGoatsee();
+		createGoatse();
 	};
 
-	function createGoatsee() {
+	function createGoatse() {
 		
 		var 
 			width = 980,
 			height = 500;
 
-		goatsee = Raphael("goatsee", width, height);
+		goatse = Raphael("goatse", width, height);
 
-		brand = goatsee.set();
-		fingerLeft1 = goatsee.set();
-		fingerLeft2 = goatsee.set();
-		fingerLeft3 = goatsee.set();
-		fingerRight1 = goatsee.set();
-		fingerRight2 = goatsee.set();
-		fingerRight3 = goatsee.set();
+		brand = goatse.set();
+		fingerLeft1 = goatse.set();
+		fingerLeft2 = goatse.set();
+		fingerLeft3 = goatse.set();
+		fingerRight1 = goatse.set();
+		fingerRight2 = goatse.set();
+		fingerRight3 = goatse.set();
 		
 		// Brand
 		var
 			brandCircle,
 			brandText;
 
-		brandCircle = goatsee.circle(width*.5, height*.5, 110);
+		brandCircle = goatse.circle(width*.5, height*.5, 110);
 		brandCircle.attr({
 			"fill" : "#FF979C",
 			"stroke-width" : "0",
 			"stroke-opacity" : "0"
 		});
 
-		brandText = goatsee.text(width*.5, height*.5, "Your Brand");
+		brandText = goatse.text(width*.5, height*.5, "Your Brand");
 		brandText.attr({
 			"fill": "#72EA91",
-			"font-family" : "Courier New",
-			"font-size" : "18",
-			"font-weight" : "bold"
+			"font-family" : "Georgia",
+			"font-size" : "25",
+			"font-style" : "italic"
 		});
 
 		brand.push(
@@ -205,24 +242,25 @@ GUNT.goatsee = (function(){
 			radius = 60,
 			pos = initPositions[index],
 			str = strings[index],
-			circle = goatsee.circle(pos.x, pos.y, radius),
-			text = goatsee.text(pos.x, pos.y, str);
+			circle = goatse.circle(pos.x, pos.y, radius),
+			text = goatse.text(pos.x, pos.y, str);
 
 		text.attr({
 			"fill": "#72EA91",
-			"font-family" : "Courier New",
+			"font-family" : "Georgia",
 			"font-size" : "14",
-			"font-weight" : "bold"
+			"font-style" : "italic"
 		});
 		circle.attr({
 			"fill" : "#000",
 			"stroke" : "#fff",
-			"stroke-width" : "2"
+			"stroke-width" : "5",
+			"opacity" : .5
 		});
 		Rset.push( circle, text );
 	};
 
-	function animateGoatsee () {
+	function animateGoatse () {
 
 		var brandAnim = Raphael.animation({
 			"r" : 200,
@@ -254,7 +292,7 @@ GUNT.goatsee = (function(){
 
 	return {
 		init : init,
-		animate : animateGoatsee
+		animate : animateGoatse
 	};
 
 })();
@@ -321,28 +359,25 @@ GUNT.goatsee = (function(){
 			$('.gunts li .photo').on({
 				mouseenter: function(){
 					$(this).next().removeClass("hidden");
-					$(this).parent().siblings().addClass('de-emphasise');
+					$('.photo').addClass('de-emphasise'); 
+					$(this).removeClass('de-emphasise');
 				},
 				mouseleave: function(){
 					$(this).next().addClass("hidden");
-					$(this).parent().siblings().removeClass('de-emphasise');
+					$('.photo').removeClass('de-emphasise');
 				}
 			});
 
 			// enter the password to activate bonus mode
 			var 
 				kkeys = [], 
-				password = "71,85,78,84,83", //this spells gunts
-				goatsee = "71,79,65,84,83,69,69"; //this spells goatsee
+				password = "71,85,78,84,83"; //this spells gunts
 
         	$(window).on('keydown', function(e){
         		kkeys.push( e.keyCode );
                 if ( kkeys.toString().indexOf( password ) >= 0 ) {
                 	location.href = "#gunts";
                     bonus();
-                } else if ( kkeys.toString().indexOf( goatsee ) >= 0 ) {
-                	//location.href = "#goatsee";
-                    GUNT.goatsee.animate();
                 }
 	        });
 
@@ -499,6 +534,10 @@ GUNT.goatsee = (function(){
 			s.maxZoom = 14;
 			s.lng = -0.081;
 			s.lat = 51.5277;
+			s.zoomControl = false;
+			s.scaleControl = false;
+			s.scrollwheel = false;
+			s.disableDoubleClickZoom = true;
 			s.center = new google.maps.LatLng(s.lat, s.lng);
 			s.mapTypeId = google.maps.MapTypeId.ROADMAP;
 			s.streetViewControl = false;
@@ -549,5 +588,3 @@ $(document).ready(function () {
 	GUNT.core.init();
 
 });
-
-
