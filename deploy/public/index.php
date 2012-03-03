@@ -206,14 +206,14 @@
         <div class="section-header clearfix">
           <h2>Case studies</h2>
           <div class="content">
-            <p><span>{Gunt}</span> is an independent digital agency established in <span>{London}</span> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
+            <p><strong>{gunt}</strong> is an independent digital agency established in <strong>{London}</strong> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
             <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
             <p>While we set up our portfolio, we want to share our thoughts with you.</p>
           </div>
         </div>
 
         <div class="section-content">
-            <div class="slideshow">
+          <div class="slideshow">
               <ul class="slides">
                 <li class="slideshow-slide">
                   <h3>Hotgirlsandmetal.com</h3>
@@ -268,7 +268,8 @@
 
     </div>
      
-  </div> <!--! end of #container -->
+  </div>
+</div> <!--! end of #container -->
 
   <footer>
     <div class="footer-container">

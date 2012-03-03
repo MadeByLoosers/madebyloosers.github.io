@@ -289,8 +289,8 @@
     text-transform:uppercase;
     width: 480px;
     float:left;
-    margin: 4px 0 0 0;
-    letter-spacing: -0.03em;
+    margin: 0;
+    letter-spacing: -0.04em;
     line-height: 81px;
     font-weight: normal;
   }
@@ -425,8 +425,13 @@
 
   .section .content {
     width: 460px;
-    padding: 0 20px;
+    padding: 2px 20px 0 20px;
     float: right;
+  }
+
+  .section .content p {
+    line-height: 25px;
+    margin-bottom: 25px;
   }
 
   #home {
@@ -450,7 +455,7 @@
   /* specific section styles */
   .slideshow {
     position: relative;
-    margin-top: 54px;
+    margin-top: 32px;
   }
 
   .slideshow ul {
