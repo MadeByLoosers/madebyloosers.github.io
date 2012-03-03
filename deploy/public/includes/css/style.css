@@ -796,134 +796,172 @@
       height:auto !important;
     }
 
-    #container,
-    header,
-    h1, h2, h3,
-    .section,
-    .section .feature,
-    .section .content,
-    #approach,
-    #contact {
-      position:static;
-      height:auto;
-      width:auto;
-      float:none;
-      padding:0;
-      margin-top:0;
-      margin-bottom:0;
-    }
+    /* general resets */
+      #container,
+      header,
+      h1, h2, h3,
+      .section,
+      .section .feature,
+      .section .content,
+      #approach,
+      #contact {
+        position:static;
+        height:auto;
+        width:auto;
+        float:none;
+        padding:0;
+        margin-top:0;
+        margin-bottom:0;
+      }
 
-    #container {
-      width:95%;
-    }
+      #container {
+        width:95%;
+      }
 
-    ul#primary-nav {
-      position:static;
-    }
+    /* primary nav */
+      ul#primary-nav {
+        position:static;
+      }
 
-    ul#primary-nav li {
-      float:none;
-      width:100%;
-      margin:0 auto;
-      text-align:center;
-      padding:5px 0;      
-    }
+      ul#primary-nav li {
+        float:none;
+        width:100%;
+        margin:0 auto;
+        text-align:center;
+        padding:5px 0;      
+      }
 
-    ul#primary-nav li a {
-      background:none !important;
-      padding:0;
-    }
+      ul#primary-nav li a {
+        background:none !important;
+        padding:0;
+      }
 
-    header {
-      height:320px !important;
-    }
+    /* headers / headings */
+      header {
+        height:320px !important;
+      }
 
-    h1 {
-      height:100px !important;
-      width: 138px;
-      background-image:url("../img/logo-mobile.png");
-      margin:20px auto 0 auto;
-    }
+      h1 {
+        height:100px !important;
+        width: 138px;
+        background-image:url("../img/logo-mobile.png");
+        margin:20px auto 0 auto;
+      }
 
-    #home,
-    #case-studies {
-      padding-top:0;
-    }
+      h2 {
+        font-size:36px;
+        line-height:1;
+        margin-top:30px;
+        margin-bottom:10px;
+      }
 
-    h2 {
-      font-size:36px;
-      line-height:1;
-      margin-top:30px;
-      margin-bottom:10px;
-    }
+    /* sections */
+      #home,
+      #case-studies,
+      #gunts {
+        padding-top:0;
+      }
 
-    #main {
-      overflow: auto;
-      margin-top: 0;
-    }
+      #main {
+        overflow: auto;
+        margin-top: 0;
+      }
 
-    .slideshow {
-      margin-top: 0;
-      width:100%;
-      overflow:hidden;
-    }
+    /* team */
+      ul.gunts,
+      ul.gunts li,
+      ul.gunts li .photo,
+      ul.gunts li .info {
+        margin:0 auto;
+        text-align:center;
+        float:none;
+        position: static;
+      }
 
-    .slideshow .slideshow-slide {
-      position: relative;
-      margin-top:35px;
-      padding-top:200px;
-      height:auto;
-    }
+      ul.gunts li .info {
+        display:block !important;
+        visibility:visible !important;
+        width: 180px;
+        height: auto;
+        margin: 0 auto 30px auto !important;
+        padding: 20px 20px 20px 20px;
+        background-color: #72ea91;
+        position: static;
+      }
 
-    .slideshow .slideshow-slide h3, 
-    .slideshow .slideshow-slide p, 
-    .slideshow .slideshow-slide a {
-      width: 100%;
-      float: none;
-      padding-right: 0;
-    }
+      .gunts .info h4 {
+        margin-bottom:0;
+      }
 
-    .flex-direction-nav {
-      position: absolute;
-      left:0;
-      top:0;
-      width: 100%;
-    }
+      .gunts .info p,
+      .gunts .info dl {
+        display:none;
+      }
 
-    .flex-direction-nav li:first-child {
-      float:left;
-    }
+    /* case studies */
+      .slideshow {
+        margin-top: 0;
+        width:100%;
+        overflow:hidden;
+      }
 
-    .flex-direction-nav li {
-      float:right;
-      margin:0;
-    }
+      .slideshow .slideshow-slide {
+        position: relative;
+        margin-top:35px;
+        padding-top:200px;
+        height:auto;
+      }
 
-    #gmap {
-      width: 100%;
-      height: 300px;
-      margin-top:0;
-    }
+      .slideshow .slideshow-slide h3, 
+      .slideshow .slideshow-slide p, 
+      .slideshow .slideshow-slide a {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+      }
 
-    footer .footer-container { 
-      width: auto;
-      text-align:center;
-    }
+      .flex-direction-nav {
+        position: absolute;
+        left:0;
+        top:0;
+        width: 100%;
+      }
 
-    footer .copyright {
-      float: none;
-      margin:0;
-      text-align:center;
-    }
+      .flex-direction-nav li:first-child {
+        float:left;
+      }
 
-    footer ul {
-      padding: 20px;
-    }
+      .flex-direction-nav li {
+        float:right;
+        margin:0;
+      }
 
-    footer img {
-      float:none;
+    /* contacts */
+      #gmap {
+        width: 100%;
+        height: 300px;
+        margin-top:0;
+      }
 
-    }
+    /* footer */
+      footer .footer-container { 
+        width: auto;
+        text-align:center;
+      }
+
+      footer .copyright {
+        float: none;
+        margin:0;
+        text-align:center;
+      }
+
+      footer ul {
+        padding: 20px;
+      }
+
+      footer img {
+        float:none;
+      }
   }
 
 
