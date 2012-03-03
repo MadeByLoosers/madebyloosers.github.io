@@ -421,7 +421,6 @@
     float: right;
   }
 
-  /* Home */
   #home {
     padding-top: 57px;
   }
@@ -434,6 +433,11 @@
   .section .goatsee {
     background: none;
   }
+
+  #contact h2 {
+    letter-spacing: -0.05em;
+  }
+
 
   /* specific section styles */
   .slideshow {
