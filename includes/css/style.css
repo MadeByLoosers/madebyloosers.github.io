@@ -242,7 +242,7 @@
     background: url('../img/logo.png') no-repeat scroll 0 0;
     display: block;
     text-indent: -99999px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 50%;
     margin: 0 0 0 -490px;
@@ -388,7 +388,7 @@
 
     /* Goatse */
     .section .goatse {
-      background: none;
+      background: url(../img/bg_infographic.png);
     }
 
   /* specific section styles */
@@ -639,6 +639,12 @@
 
   @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports 768px and over go here */
+
+  }
+
+  @media only screen and (max-width: 980px) {
+    
+
 
   }
 
