@@ -1,3 +1,22 @@
+<?php
+  
+  // set all tag lines
+  $tagLines = array(
+    "So future it hurts",
+    "We did tomorrow yesterday",
+    "Taking the internet to the next level",
+    "Viva la Gunt!",
+    "The start of a revolution",
+    "The world is our oyster",
+    "Digitally engineering for tomorrow",
+    "Reverse engineering the future",
+    "Masterizing the tricks",
+    "future web digisavants",
+  );
+  // select a random tag line
+  $tagLine = $tagLines[array_rand($tagLines)];
+
+?>
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -56,7 +75,7 @@
     <div id="main" role="main">
       <div id="home" class="section clearfix">
         <div class="section-header clearfix">
-          <h2>So future it hurts</h2>
+          <h2><?php echo $tagLine; ?></h2>
           <div class="content">
             <p><strong>{gunt}</strong> create bleeding edge campaigns for the post digital age.</p>
             <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
