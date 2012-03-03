@@ -481,41 +481,76 @@
     background-position: left top, left top;
   }
 
-  .gunts li .photo:hover {
-    background-position-y: bottom;
-  }
+  /* firefox doesn't support background-position-x 
+     do all sprite positioning manually */
 
-  .gunts #gunts-pg .photo {
-    background-position-x: 0;
-  }
+    .gunts #gunts-pg .photo {
+      background-position: 0  top;
+    }
 
-  .gunts #gunts-jb .photo {
-    background-position-x: -220px;
-  }
+    .gunts #gunts-pg .photo:hover {
+      background-position: 0 bottom;
+    }
 
-  .gunts #gunts-pxg .photo {
-    background-position-x: -440px;
-  }
+    .gunts #gunts-jb .photo {
+      background-position: -220px top;
+    }
 
-  .gunts #gunts-ma .photo {
-    background-position-x: -660px;
-  }
+    .gunts #gunts-jb .photo:hover {
+      background-position: -220px bottom;
+    }
 
-  .gunts #gunts-ml .photo {
-    background-position-x: -880px;
-  }
+    .gunts #gunts-pxg .photo {
+      background-position: -440px top;
+    }
 
-  .gunts #gunts-cl .photo {
-    background-position-x: -1100px;
-  }
+    .gunts #gunts-pxg .photo:hover {
+      background-position: -440px bottom;
+    }
 
-  .gunts #gunts-jl .photo {
-    background-position-x: -1320px;
-  }
+    .gunts #gunts-ma .photo {
+      background-position: -660px top;
+    }
 
-  .gunts #gunts-np .photo {
-    background-position-x: -1540px;
-  }
+    .gunts #gunts-ma .photo:hover {
+      background-position: -660px bottom;
+    }
+
+    .gunts #gunts-ml .photo {
+      background-position: -880px top;
+    }
+
+    .gunts #gunts-ml .photo:hover {
+      background-position: -880px bottom;
+    }
+
+    .gunts #gunts-cl .photo {
+      background-position: -1100px top;
+    }
+
+    .gunts #gunts-cl .photo:hover {
+      background-position: -1100px bottom;
+    }
+
+    .gunts #gunts-jl .photo {
+      background-position: -1320px top;
+    }
+
+    .gunts #gunts-jl .photo:hover {
+      background-position: -1320px bottom;
+    }
+
+    .gunts #gunts-np .photo {
+      background-position: -1540px top;
+    }
+
+    .gunts #gunts-np .photo:hover {
+      background-position: -1540px bottom;
+    }
+
+    .gunts li .photo:hover {
+      background-position-y: bottom;
+    }
 
   .gunts .info {
     width: 420px;
