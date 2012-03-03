@@ -11,7 +11,7 @@
     "Digitally engineering for tomorrow",
     "Reverse engineering the future",
     "Masterizing the tricks",
-    "future web digisavants",
+    "Future web digisavants",
   );
   // select a random tag line
   $tagLine = $tagLines[array_rand($tagLines)];
@@ -31,7 +31,7 @@
        More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Gunt London</title>
+  <title>Gunt London - <?php echo $tagLine; ?></title>
   <meta name="description" content="">
   <meta name="author" content="Captain Gunt">
 
