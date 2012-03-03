@@ -1,3 +1,22 @@
+<?php
+  
+  // set all tag lines
+  $tagLines = array(
+    "So future it hurts",
+    "We did tomorrow yesterday",
+    "Taking the internet to the next level",
+    "Viva la Gunt!",
+    "The start of a revolution",
+    "The world is our oyster",
+    "Digitally engineering for tomorrow",
+    "Reverse engineering the future",
+    "Masterizing the tricks",
+    "Future web digisavants",
+  );
+  // select a random tag line
+  $tagLine = $tagLines[array_rand($tagLines)];
+
+?>
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -12,7 +31,7 @@
        More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Gunt London</title>
+  <title>Gunt London - <?php echo $tagLine; ?></title>
   <meta name="description" content="">
   <meta name="author" content="Captain Gunt">
 
@@ -56,7 +75,7 @@
     <div id="main" role="main">
       <div id="home" class="section clearfix">
         <div class="section-header clearfix">
-          <h2>So future it hurts</h2>
+          <h2><?php echo $tagLine; ?></h2>
           <div class="content">
             <p><strong>{gunt}</strong> create bleeding edge campaigns for the post digital age.</p>
             <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
@@ -283,7 +302,7 @@
         <li><a rel="external" href="http://www.flickr.com/photos/guntlondon">FlickR</a></li>
         <li><a rel="external" href="http://www.linkedin.com/guntlondon">LinkedIn</a></li>
         <li><a rel="external" href="http://www.github.com/guntlondon">Github</a></li>
-        <li><a rel="external" href="http://www.lastfm.com/guntlondon">LastFM</a></li>
+        <li><a rel="external" href="http://www.lastfm.com/user/guntlondon">LastFM</a></li>
         <li><a rel="external" href="http://www.vimeo.com/guntlondon">Vimeo</a></li>
       </ul>
       <img src="includes/img/hmtl6-logo.png" alt="HMTL6 logo" />
