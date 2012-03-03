@@ -85,7 +85,7 @@
 
         <div class="section-content feature goatsee">
           <!--<div id="goatsee"></div>-->
-          <img src="includes/img/infographic.png" />
+          <img src="includes/img/infographic-infograph.png" />
 
         </div>
 
