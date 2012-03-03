@@ -802,7 +802,8 @@
     .section,
     .section .feature,
     .section .content,
-    #approach {
+    #approach,
+    #contact {
       position:static;
       height:auto;
       width:auto;
@@ -820,8 +821,33 @@
       position:static;
     }
 
+    ul#primary-nav li {
+      float:none;
+      width:100%;
+      margin:0 auto;
+      text-align:center;
+      padding:5px 0;      
+    }
+
+    ul#primary-nav li a {
+      background:none !important;
+      padding:0;
+    }
+
     header {
-      
+      height:320px !important;
+    }
+
+    h1 {
+      height:100px !important;
+      width: 138px;
+      background-image:url("../img/logo-mobile.png");
+      margin:20px auto 0 auto;
+    }
+
+    #home,
+    #case-studies {
+      padding-top:0;
     }
 
     h2 {
@@ -876,6 +902,27 @@
     #gmap {
       width: 100%;
       height: 300px;
+      margin-top:0;
+    }
+
+    footer .footer-container { 
+      width: auto;
+      text-align:center;
+    }
+
+    footer .copyright {
+      float: none;
+      margin:0;
+      text-align:center;
+    }
+
+    footer ul {
+      padding: 20px;
+    }
+
+    footer img {
+      float:none;
+
     }
   }
 
