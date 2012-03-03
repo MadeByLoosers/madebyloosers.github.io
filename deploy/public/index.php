@@ -222,7 +222,7 @@
                   <br/>
                   The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
-                  <img src="includes/img/project-placeholder.jpg" alt="" />
+                  <img src="includes/img/feature.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
@@ -240,7 +240,7 @@
                   <br/>
                   Spactacles are currently on indefinite hiatus.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
-                  <img src="includes/img/project-placeholder.jpg" alt="" />
+                  <img src="includes/img/feature.jpg" alt="" />
                 </li>      
               </ul>
             </div>
@@ -293,6 +293,7 @@
   <script defer src="includes/js/mylibs/jquery.flexslider.min.js"></script>
   <script defer src="includes/js/mylibs/waypoints.min.js"></script>
   <script defer src="includes/js/script.js"></script>
+  <script defer src="https://raw.github.com/gist/901295/bf9a44b636a522e608bba11a91b8298acd081f50/ios-viewport-scaling-bug-fix.js"></script>
   
   <script>
     window._gaq = [['_setAccount','UA-29684348-1'],['_trackPageview'],['_trackPageLoadTime']];
