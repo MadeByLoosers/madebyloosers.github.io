@@ -360,6 +360,17 @@ GUNT.goatse = (function(){
 					$(this).next().removeClass("hidden");
 					$('.photo').addClass('de-emphasise'); 
 					$(this).removeClass('de-emphasise');
+
+					$facts = $(this).parent().children('.info').children('dl'); // dl
+					$facts.addClass('hidden');
+					var index = Math.floor(Math.random() * $facts.length);
+					console.log(index);
+					$facts.eq(index).removeClass('hidden');
+
+					// radomly show one class. Select random number. Just selector with number
+
+
+					console.log($facts);
 				},
 				mouseleave: function(){
 					$(this).next().addClass("hidden");

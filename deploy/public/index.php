@@ -132,10 +132,22 @@
               <div class="info hidden alt-position">
                 <h3>Pete X</h3>
                 <h4>Creative Director and Founder</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Pete's always tweaking ideas until they're perfect. He’s a born leader, ready to guide the Gunts far into the future.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Chana chicken</dd>
+                </dl>
+                <dl>
+                  <dt>API</td>
+                  <dd>Vimeo</dt>
+                </dl>
+                <dl class="hidden">
+                  <dt>Queen: Boadicea</dt>
+                  <dd>Hex value: #000</dd>
+                </dl>
+                <dl class="hidden">
+                  <dt>Social network</dt>
+                  <dd>Pintrest</dd>
                 </dl>
               </div>
             </li>
