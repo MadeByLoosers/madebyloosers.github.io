@@ -461,55 +461,59 @@
   }
 
   .gunts li {
+    float: left;
+    position: relative;
+  }
+
+  .gunts li .photo {
     width: 220px;
     height: 300px;
     margin: 0 20px 20px 0;
     background: transparent url(../img/team-sprite.jpg) no-repeat left top;
-    float: left;
     z-index: 0;
   }
 
   /* additional background image for deamphasis */
-  .gunts li.de-emphasise {
+  .gunts li .de-emphasise {
     background-color: transparent, transparent;
     background-image: url(../img/bg-diagonals.png), url(../img/team-sprite.jpg);
     background-repeat: repeat, no-repeat;
     background-position: left top, left top;
   }
 
-  .gunts li:hover {
+  .gunts li .photo:hover {
     background-position-y: bottom;
   }
 
-  .gunts #gunts-pg {
+  .gunts #gunts-pg .photo {
     background-position-x: 0;
   }
 
-  .gunts #gunts-jb {
+  .gunts #gunts-jb .photo {
     background-position-x: -220px;
   }
 
-  .gunts #gunts-pxg {
+  .gunts #gunts-pxg .photo {
     background-position-x: -440px;
   }
 
-  .gunts #gunts-ma {
+  .gunts #gunts-ma .photo {
     background-position-x: -660px;
   }
 
-  .gunts #gunts-ml {
+  .gunts #gunts-ml .photo {
     background-position-x: -880px;
   }
 
-  .gunts #gunts-cl {
+  .gunts #gunts-cl .photo {
     background-position-x: -1100px;
   }
 
-  .gunts #gunts-jl {
+  .gunts #gunts-jl .photo {
     background-position-x: -1320px;
   }
 
-  .gunts #gunts-np {
+  .gunts #gunts-np .photo {
     background-position-x: -1540px;
   }
 
@@ -520,6 +524,7 @@
     padding: 30px 20px 20px;
     background-color: #72ea91;
     position: absolute;
+    top: 0;
     z-index: 50;
   }
 
