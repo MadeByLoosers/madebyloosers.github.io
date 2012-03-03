@@ -20,6 +20,8 @@ var GUNT = GUNT || {};
 
 		GUNT.startupRoutine.init();
 
+		GUNT.goatsee.init();
+
 		GUNT.initLinks.init();
 
 		GUNT.gmap.init();
@@ -103,6 +105,161 @@ var GUNT = GUNT || {};
 
 	})();
 
+
+/*
+	init goatsee graphic
+ */
+GUNT.goatsee = (function(){
+	
+	var 
+		settings = {},
+		goatsee = null,
+
+		brand,
+		fingerLeft1, fingerLeft2, fingerLeft3,
+		fingerRight1, fingerRight2, fingerRight3,
+		
+		strings = [
+			"Moving\nForward",
+			"Digital\nStrategy",
+			"Social\nAmplification",
+			"Future",
+			"Conceptual\nCreativity",
+			"Technology\nExpertise"
+		],
+
+		initPositions = [
+			{ x : 400, y : 130 },
+			{ x : 350, y : 250 },
+			{ x : 400, y : 370 },
+			{ x : 580, y : 130 },
+			{ x : 630, y : 250 },
+			{ x : 580, y : 370 }
+		],
+
+		finalPositions = [
+			{ x : 330, y : 100 },
+			{ x : 280, y : 250 },
+			{ x : 330, y : 400 },
+			{ x : 650, y : 100 },
+			{ x : 700, y : 250 },
+			{ x : 650, y : 400 }
+		];
+
+	function init () {
+		createGoatsee();
+	};
+
+	function createGoatsee() {
+		
+		var 
+			width = 980,
+			height = 500;
+
+		goatsee = Raphael("goatsee", width, height);
+
+		brand = goatsee.set();
+		fingerLeft1 = goatsee.set();
+		fingerLeft2 = goatsee.set();
+		fingerLeft3 = goatsee.set();
+		fingerRight1 = goatsee.set();
+		fingerRight2 = goatsee.set();
+		fingerRight3 = goatsee.set();
+		
+		// Brand
+		var
+			brandCircle,
+			brandText;
+
+		brandCircle = goatsee.circle(width*.5, height*.5, 110);
+		brandCircle.attr({
+			"fill" : "#FF979C",
+			"stroke-width" : "0",
+			"stroke-opacity" : "0"
+		});
+
+		brandText = goatsee.text(width*.5, height*.5, "Your Brand");
+		brandText.attr({
+			"fill": "#72EA91",
+			"font-family" : "Courier New",
+			"font-size" : "18",
+			"font-weight" : "bold"
+		});
+
+		brand.push(
+			brandCircle, brandText
+		);
+
+		// Fingers
+		createFinger( 0, fingerLeft1 );
+		createFinger( 1, fingerLeft2 );
+		createFinger( 2, fingerLeft3 );
+		createFinger( 3, fingerRight1 );
+		createFinger( 4, fingerRight2 );
+		createFinger( 5, fingerRight3 );
+	};
+
+	function createFinger( index, Rset ){
+		
+		var 
+			radius = 60,
+			pos = initPositions[index],
+			str = strings[index],
+			circle = goatsee.circle(pos.x, pos.y, radius),
+			text = goatsee.text(pos.x, pos.y, str);
+
+		text.attr({
+			"fill": "#72EA91",
+			"font-family" : "Courier New",
+			"font-size" : "14",
+			"font-weight" : "bold"
+		});
+		circle.attr({
+			"fill" : "#000",
+			"stroke" : "#fff",
+			"stroke-width" : "2"
+		});
+		Rset.push( circle, text );
+	};
+
+	function animateGoatsee () {
+
+		var brandAnim = Raphael.animation({
+			"r" : 200,
+			"font-size" : 24
+		}, 400, ">");
+
+		//brand.animate(brandAnim.delay(50));
+		brand.animate(brandAnim);
+
+		animateFinger( 0, fingerLeft1 );
+		animateFinger( 1, fingerLeft2 );
+		animateFinger( 2, fingerLeft3 );
+		animateFinger( 3, fingerRight1 );
+		animateFinger( 4, fingerRight2 );
+		animateFinger( 5, fingerRight3 );
+
+	};
+
+	function animateFinger ( index, Rset ) {
+		
+		Rset.animate({
+			"x" : finalPositions[index].x,
+			"y" : finalPositions[index].y,
+			"cx" : finalPositions[index].x,
+			"cy" : finalPositions[index].y
+		}, 400, ">");
+
+	}
+
+	return {
+		init : init,
+		animate : animateGoatsee
+	};
+
+})();
+
+
 /*
 	misc actions on links
 	*/
@@ -177,12 +334,19 @@ var GUNT = GUNT || {};
 			});
 
 			// enter the password to activate bonus mode
-			var kkeys = [], password = "71,85,78,84,83"; //this spells gunts
+			var 
+				kkeys = [], 
+				password = "71,85,78,84,83", //this spells gunts
+				goatsee = "71,79,65,84,83,69,69"; //this spells goatsee
+
         	$(window).on('keydown', function(e){
-                kkeys.push( e.keyCode );
+        		kkeys.push( e.keyCode );
                 if ( kkeys.toString().indexOf( password ) >= 0 ) {
                 	location.href = "#gunts";
                     bonus();
+                } else if ( kkeys.toString().indexOf( goatsee ) >= 0 ) {
+                	//location.href = "#goatsee";
+                    GUNT.goatsee.animate();
                 }
 	        });
 
