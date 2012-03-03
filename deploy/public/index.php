@@ -217,24 +217,27 @@
               <ul class="slides">
                 <li class="slideshow-slide">
                   <h3>Hotgirlsandmetal.com</h3>
-                  <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
-                  <p>While we set up our portfolio, we want to share our thoughts with you.</p>
+                  <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
+                  <br/>
+                  The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/project-placeholder.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
                   <h3>beeswearinghats.com</h3>
-                  <p>We are passionate collective of</p>
-                  <p>Looking to engage consumers in a innovative edgy way.</p>
+                  <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/feature.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
                   <h3>Spactacles</h3>
-                  <p>Creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
-                  <p>Overwhelming amount of information and noise surrounding us.</p>
+                  <p>Emerging onto the East-London Spackcore scene like warriors from battlesmoke, Spactacles were a shot in the arm to a genre that was dangerously on the verge of self-parody.
+                  <br/>  
+                  Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressive physical live show. Gorrilaz later copied this.
+                  <br/>
+                  Spactacles are currently on indefinite hiatus.</p>
                   <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/project-placeholder.jpg" alt="" />
                 </li>
