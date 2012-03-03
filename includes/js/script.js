@@ -128,7 +128,7 @@ GUNT.waypoints = (function(){
 				$active = $active.prev();
 			}
 
-			if ( target == "approach" ) GUNT.goatse.animate();
+			// if ( target == "approach" ) GUNT.goatse.animate();
 
 			$("#primary-nav li.selected").removeClass("selected");
 			$active.addClass("selected");
@@ -166,21 +166,21 @@ GUNT.goatse = (function(){
 		],
 
 		initPositions = [
-			{ x : 400, y : 130 },
+			{ x : 400, y : 160 },
 			{ x : 350, y : 250 },
-			{ x : 400, y : 370 },
-			{ x : 580, y : 130 },
+			{ x : 400, y : 340 },
+			{ x : 580, y : 160 },
 			{ x : 630, y : 250 },
-			{ x : 580, y : 370 }
+			{ x : 580, y : 340 }
 		],
 
 		finalPositions = [
-			{ x : 330, y : 100 },
-			{ x : 280, y : 250 },
-			{ x : 330, y : 400 },
-			{ x : 650, y : 100 },
-			{ x : 700, y : 250 },
-			{ x : 650, y : 400 }
+			{ x : 350, y : 90 },
+			{ x : 260, y : 250 },
+			{ x : 350, y : 390 },
+			{ x : 670, y : 100 },
+			{ x : 720, y : 250 },
+			{ x : 670, y : 400 }
 		];
 
 	function init () {
@@ -218,9 +218,9 @@ GUNT.goatse = (function(){
 		brandText = goatse.text(width*.5, height*.5, "Your Brand");
 		brandText.attr({
 			"fill": "#72EA91",
-			"font-family" : "Courier New",
-			"font-size" : "18",
-			"font-weight" : "bold"
+			"font-family" : "Georgia",
+			"font-size" : "25",
+			"font-style" : "italic"
 		});
 
 		brand.push(
@@ -247,14 +247,15 @@ GUNT.goatse = (function(){
 
 		text.attr({
 			"fill": "#72EA91",
-			"font-family" : "Courier New",
+			"font-family" : "Georgia",
 			"font-size" : "14",
-			"font-weight" : "bold"
+			"font-style" : "italic"
 		});
 		circle.attr({
 			"fill" : "#000",
 			"stroke" : "#fff",
-			"stroke-width" : "2"
+			"stroke-width" : "5",
+			"opacity" : .5
 		});
 		Rset.push( circle, text );
 	};
