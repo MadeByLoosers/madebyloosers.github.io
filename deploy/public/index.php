@@ -1,3 +1,22 @@
+<?php
+  
+  // set all tag lines
+  $tagLines = array(
+    "So future it hurts",
+    "We did tomorrow yesterday",
+    "Taking the internet to the next level",
+    "Viva la Gunt!",
+    "The start of a revolution",
+    "The world is our oyster",
+    "Digitally engineering for tomorrow",
+    "Reverse engineering the future",
+    "Masterizing the tricks",
+    "future web digisavants",
+  );
+  // select a random tag line
+  $tagLine = $tagLines[array_rand($tagLines)];
+
+?>
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -14,7 +33,7 @@
 
   <title>Gunt London</title>
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Captain Gunt">
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -56,7 +75,7 @@
     <div id="main" role="main">
       <div id="home" class="section clearfix">
         <div class="section-header clearfix">
-          <h2>So future it hurts</h2>
+          <h2><?php echo $tagLine; ?></h2>
           <div class="content">
             <p><strong>{gunt}</strong> create bleeding edge campaigns for the post digital age.</p>
             <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
@@ -68,7 +87,7 @@
         </div>
 
         <div class="section-content feature">
-          <img src="/includes/img/feature.jpg" />
+          <img src="includes/img/feature.jpg" />
         </div>
       </div>
 
@@ -84,7 +103,7 @@
 
         <div class="section-content feature goatsee">
           <!--<div id="goatsee"></div>-->
-          <img src="/includes/img/Infographic.png" />
+          <img src="includes/img/infographic.png" />
 
         </div>
 
@@ -254,6 +273,10 @@
       <div id="contact" class="section clearfix">
         <div class="section-header clearfix">
           <h2>Contact us</h2>
+          <div class="content">
+          <p>
+          We’re not in the habit of working with just anyone. And we’re probably not going to work with you either. But if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.com">canyoumakeourlogobigger@guntlondon.com</a>.
+          </p>
         </div>
                 
         <div class="section-content">
@@ -276,7 +299,7 @@
         <li><a rel="external" href="http://www.flickr.com/photos/guntlondon">FlickR</a></li>
         <li><a rel="external" href="http://www.linkedin.com/guntlondon">LinkedIn</a></li>
         <li><a rel="external" href="http://www.github.com/guntlondon">Github</a></li>
-        <li><a rel="external" href="http://www.lastfm.com/guntlondon">LastFM</a></li>
+        <li><a rel="external" href="http://www.lastfm.com/user/guntlondon">LastFM</a></li>
         <li><a rel="external" href="http://www.vimeo.com/guntlondon">Vimeo</a></li>
       </ul>
       <img src="includes/img/hmtl6-logo.png" alt="HMTL6 logo" />

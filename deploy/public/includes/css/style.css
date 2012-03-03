@@ -56,6 +56,14 @@
    /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
    a:hover, a:active { outline: 0; }
 
+   a {
+    -webkit-transition : color 0.5s ease;
+    -moz-transition    : color 0.5s ease;
+    -ms-transition     : color 0.5s ease;
+    -o-transition      : color 0.5s ease;
+    transition         : color 0.5s ease;
+  }
+
 
 /* =============================================================================
    Typography
@@ -281,7 +289,7 @@
     text-transform:uppercase;
     width: 480px;
     float:left;
-    margin: 0;
+    margin: 4px 0 0 0;
     letter-spacing: -0.03em;
     line-height: 81px;
     font-weight: normal;
@@ -290,8 +298,7 @@
   h3 {
     color: #72ea91;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     text-transform:uppercase;
     width: 480px;
     float:left;
@@ -319,9 +326,9 @@
 
   p, a, dl {
     font-family: Georgia, monospace;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 26px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     margin: 0;
   }
 
@@ -331,6 +338,7 @@
 
   p {
     color: #fff;
+    margin-bottom:1em;
   }
 
   strong, em {
@@ -372,7 +380,7 @@
   }
 
   ul#primary-nav li a:hover, ul#primary-nav li.selected a:hover {
-    background: url('../img/arrow-up.png') no-repeat scroll 50% -54px;
+    background: url('../img/arrow-up.png') no-repeat scroll 50% -63px;
   }
 
   #main {
@@ -421,7 +429,6 @@
     float: right;
   }
 
-  /* Home */
   #home {
     padding-top: 57px;
   }
@@ -434,6 +441,11 @@
   .section .goatsee {
     background: none;
   }
+
+  #contact h2 {
+    letter-spacing: -0.05em;
+  }
+
 
   /* specific section styles */
   .slideshow {
@@ -457,10 +469,19 @@
   .slideshow .slideshow-slide h3, 
   .slideshow .slideshow-slide p, 
   .slideshow .slideshow-slide a {
-    width: 50%;
+    width: 460px;
     float: right;
     clear: both;
+    padding-right: 20px;
+  }
 
+  .slideshow .slideshow-slide h3 {
+    margin-bottom: 20px;
+  }
+
+  .slideshow .slideshow-slide a {
+    margin-top: 30px;
+    font-style: italic;
   }
 
   .slideshow .slideshow-slide img {
@@ -468,18 +489,26 @@
     top: 0;
     left: 0;
     z-index: -1;
-
   }
 
   /* slideshow navigation */
   .flex-direction-nav {
     position: absolute;
-    right: 504px;
+    right: 522px;
     top: 21px;
+    width: 120px;
   }
 
   .flex-direction-nav li {
     float: right;
+  }
+
+  .flex-direction-nav li a {
+    font-style: italic;
+  }
+
+  .flex-direction-nav li a:hover {
+    color: #72ea91;
   }
 
   #gmap {
@@ -489,6 +518,7 @@
     float:left;
     position: relative;
     z-index: 2000;
+    margin-top:52px;
   }
 
   #gmap img {
