@@ -793,7 +793,7 @@
 
 
   /* Gunt london mobile styles */
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 980px) {
     img {
       max-width:100% !important;
       height:auto !important;
@@ -872,6 +872,14 @@
         margin-top: 0;
       }
 
+	/* goatse */
+	.section .goatse #goatse {
+		background:url(../img/infographic-infograph.png) no-repeat center top;
+	}
+	.goatse svg {
+		visibility:hidden;
+	}
+	  
     /* team */
       ul.gunts,
       ul.gunts li,
