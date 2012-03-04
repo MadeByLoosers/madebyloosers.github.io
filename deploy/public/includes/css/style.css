@@ -443,10 +443,13 @@
     padding-top: 94px;
   }
 
-  /* Goatsee */
-  .section .goatsee {
-    background: none;
+  /* Goatse */
+  .section .goatse {
+    background:none;
     padding-bottom: 40px;
+  }
+  .section .goatse #goatse {
+	background: url(../img/bg_infographic.png) repeat left top;
   }
 
   #gunts, #case-studies {

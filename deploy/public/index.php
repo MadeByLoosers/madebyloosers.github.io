@@ -83,15 +83,12 @@
           </div>
         </div>
 
-        <div class="section-content feature goatsee">
-          <!--<div id="goatsee"></div>-->
-          <img src="includes/img/infographic-infograph.png" />
-
+        <div class="section-content feature goatse">
+          <div id="goatse"></div>
         </div>
 
-
       </div>
-
+	  
       <div id="gunts" class="section clearfix">
         <div class="section-header clearfix">
           <h2>The Gunts</h2>
