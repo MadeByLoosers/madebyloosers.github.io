@@ -60,7 +60,7 @@
           <h2><?php echo $tagLine; ?></h2>
           <div class="content">
             <p><strong>{gunt}</strong> create bleeding edge campaigns for the post digital age.</p>
-            <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
+            <p>We are a passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
             <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
             <p><strong>{Gunt}</strong> is an independent digital agency established in <strong>{London}</strong> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
             <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
@@ -263,7 +263,7 @@
           <h2>Contact us</h2>
           <div class="content">
           <p>
-          We’re not in the habit of working with just anyone. And we’re probably not going to work with you either. But if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.com">canyoumakeourlogobigger@guntlondon.com</a>.
+            We’re not in the habit of working with just anyone, and we’re probably not going to work with you either. However if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.co">canyoumakeourlogobigger@guntlondon.com</a>.
           </p>
         </div>
                 
