@@ -105,26 +105,26 @@
               <div class="info hidden">
                 <h3>Pete</h3>
                 <h4>Creative Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>With many successful creative campaigns under his belt, Pete was hired at Gunt to really push the boundaries of where Digital meets Physical.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Both of them</dd>
                 </dl>
                 <dl>
                   <dt>Favourite API</dt>
-                  <dd>Vimeo</dd>
+                  <dd>Api Days</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Queen</dt>
-                  <dd>Boadicea</dd>
+                  <dd>Pete Graham on a Saturday Night</dd>
                 </dd>
                 <dl>
                   <dt>Favourite Hex value</dt>
-                  <dd>#000</dd>
+                  <dd>#Classified</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Social network</dt>
-                  <dd>Pintrest</dd>
+                  <dd>Friends Reunited</dd>
                 </dl>
               </div>
             </li>
@@ -133,26 +133,26 @@
               <div class="info hidden">
                 <h3>James</h3>
                 <h4>Account Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>James has been fortunate to have worked at many of the top studios round the country. Using his top-notch people skills, he's always knows how to rub people up... the right way!</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Daighi, slow cooked dry meat</dd>
                 </dl>
                 <dl>
                   <dt>Favourite API</dt>
-                  <dd>Vimeo</dd>
+                  <dd>LinkedIn</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Queen</dt>
-                  <dd>Boadicea</dd>
+                  <dd>Queen of Hoxton</dd>
                 </dd>
                 <dl>
                   <dt>Favourite Hex value</dt>
-                  <dd>#000</dd>
+                  <dd>#333</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Social network</dt>
-                  <dd>Pintrest</dd>
+                  <dd>LinkedIn</dd>
                 </dl>
               </div>
             </li>
@@ -189,25 +189,25 @@
               <div class="info hidden alt-position">
                 <h3>Mike</h3>
                 <h4>Creative Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Michael really loves bikes. His aim is to one day sit on the board of D&amp;AD executives.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Daighi, slow cooked dry meat</dd>
                 <dl>
                   <dt>Favourite API</dt>
-                  <dd>Vimeo</dd>
+                  <dd>Instagram</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Queen</dt>
-                  <dd>Boadicea</dd>
+                  <dd>Brian May</dd>
                 </dd>
                 <dl>
                   <dt>Favourite Hex value</dt>
-                  <dd>#000</dd>
+                  <dd>#X0X0X0</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Social network</dt>
-                  <dd>Pintrest</dd>
+                  <dd>MySpace</dd>
                 </dl>
               </div>
             </li>
@@ -216,26 +216,26 @@
               <div class="info hidden">
                 <h3>Marie</h3>
                 <h4>Strategy Director</h4>
-                <p>She’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Marie is one of France's top strategic brains. She's always tugging at the strings of digital integration. This allows for some of the best thinking for the best brands.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Chilli paneer tikka</dd>
                 </dl>
                 <dl>
                   <dt>Favourite API</dt>
-                  <dd>Vimeo</dd>
+                  <dd>Facebook</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Queen</dt>
-                  <dd>Boadicea</dd>
+                  <dd>Freddie Mercury</dd>
                 </dd>
                 <dl>
                   <dt>Favourite Hex value</dt>
-                  <dd>#000</dd>
+                  <dd>#FF00FF</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Social network</dt>
-                  <dd>Pintrest</dd>
+                  <dd>The Pub</dd>
                 </dl>
               </div>
             </li>
@@ -244,26 +244,26 @@
               <div class="info hidden">
                 <h3>Caz</h3>
                 <h4>Innovations and Digital Accelerations Director</h4>
-                <p>She’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Caz was born into a computer science family. She was one of the first people in the world to test the Beta service that we now call the "Internet". Using this in-depth knowledge, she's always finding new and innovating ways to lever digital into our analogue, tangible world.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Chilli paneer tikka</dd>
                 </dl>
                 <dl>
                   <dt>Favourite API</dt>
-                  <dd>Vimeo</dd>
+                  <dd>Flickr</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Queen</dt>
-                  <dd>Boadicea</dd>
+                  <dd>Hera</dd>
                 </dd>
                 <dl>
                   <dt>Favourite Hex value</dt>
-                  <dd>#000</dd>
+                  <dd>#E45A96</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Social network</dt>
-                  <dd>Pintrest</dd>
+                  <dd>Twitter</dd>
                 </dl>
               </div>
             </li>
@@ -272,10 +272,26 @@
               <div class="info hidden alt-position">
                 <h3>Big John</h3>
                 <h4>Creative Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>From a copywriter background at some of the UKs best red top papers, John is always pushing the written word into new places. John's current ethos is heavily based around trying to re-invent the common day pun.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Daighi, slow cooked dry meat</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>LastFM</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Steve Mc</dd>
+                </dd>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#FFCC00</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>I don't like people</dd>
                 </dl>
               </div>
             </li>
@@ -284,18 +300,18 @@
               <div class="info hidden alt-position">
                 <h3>Nico</h3>
                 <h4>Creative Director</h4>
-                <p>Merde</p>
+                <p>Originally from the deep south of France, Nico brings a completely different approach to the creative process. Turning it inside out over and over again.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Mixed Grill</dd>
                 </dl>
                 <dl>
                   <dt>Favourite API</dt>
-                  <dd>Vimeo</dd>
+                  <dd>Twitter</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Queen</dt>
-                  <dd>Boadicea</dd>
+                  <dd>Justin Bieber</dd>
                 </dd>
                 <dl>
                   <dt>Favourite Hex value</dt>
@@ -303,7 +319,7 @@
                 </dl>
                 <dl>
                   <dt>Favourite Social network</dt>
-                  <dd>Pintrest</dd>
+                  <dd>Daily Burn</dd>
                 </dl>
               </div>
             </li>
