@@ -235,13 +235,13 @@
                   <br/>
                   The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
                   <!--<a href="#">Visit the site</a>-->
-                  <img src="includes/img/feature.jpg" alt="" />
+                  <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
                   <h3>bees wearing hats</h3>
                   <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
-                  <img src="includes/img/feature.jpg" alt="" />
+                  <img src="includes/img/casestudies-beesinhats.png" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
@@ -251,7 +251,7 @@
                   Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressively physical live show. Gorrilaz later copied this.
                   <br/>
                   Spactacles are currently on indefinite hiatus.</p>
-                  <img src="includes/img/feature.jpg" alt="" />
+                  <img src="includes/img/casestudies-spac.jpg" alt="" />
                 </li>      
               </ul>
             </div>
