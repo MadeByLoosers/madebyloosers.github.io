@@ -25,7 +25,7 @@
 <head>
   <meta charset="utf-8">
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
   <title>Gunt London - <?php echo $tagLine; ?></title>
   <meta name="description" content="">
@@ -69,7 +69,7 @@
         </div>
 
         <div class="section-content feature">
-          <img src="includes/img/feature.jpg" />
+          <img src="includes/img/feature.jpg" alt="" />
         </div>
       </div>
 
@@ -135,8 +135,8 @@
                   <dd>Chana chicken</dd>
                 </dl>
                 <dl>
-                  <dt>API</td>
-                  <dd>Vimeo</dt>
+                  <dt>API</dt>
+                  <dd>Vimeo</dd>
                 </dl>
                 <dl class="hidden">
                   <dt>Queen: Boadicea</dt>
