@@ -286,7 +286,7 @@
         <li><a rel="external" href="http://www.twitter.com/guntlondon">Twitter</a></li>
         <li><a rel="external" href="http://www.pinterest.com/guntlondon">Pinterest</a></li>
         <li><a rel="external" href="http://www.flickr.com/photos/guntlondon">FlickR</a></li>
-        <li><a rel="external" href="http://www.linkedin.com/guntlondon">LinkedIn</a></li>
+        <li><a rel="external" href="http://www.linkedin.com/company/2458729">LinkedIn</a></li>
         <li><a rel="external" href="http://www.github.com/guntlondon">Github</a></li>
         <li><a rel="external" href="http://www.lastfm.com/user/guntlondon">LastFM</a></li>
         <li><a rel="external" href="http://www.vimeo.com/guntlondon">Vimeo</a></li>
