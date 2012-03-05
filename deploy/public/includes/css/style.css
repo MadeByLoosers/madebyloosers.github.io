@@ -50,19 +50,10 @@
    Links
    ========================================================================== */
 
-   a:hover { color: #06e; }
    a:focus { outline: thin dotted; }
 
    /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
    a:hover, a:active { outline: 0; }
-
-   a {
-    -webkit-transition : color 0.5s ease;
-    -moz-transition    : color 0.5s ease;
-    -ms-transition     : color 0.5s ease;
-    -o-transition      : color 0.5s ease;
-    transition         : color 0.5s ease;
-  }
 
 
 /* =============================================================================
@@ -321,7 +312,15 @@
   }
 
   a:hover {
-    color: #8ed200;
+    color: #72ea91;
+  }
+
+  a {
+    -webkit-transition : color 0.5s ease;
+    -moz-transition    : color 0.5s ease;
+    -ms-transition     : color 0.5s ease;
+    -o-transition      : color 0.5s ease;
+    transition         : color 0.5s ease;
   }
 
   p, a, dl {
