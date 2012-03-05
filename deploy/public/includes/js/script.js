@@ -28,9 +28,7 @@ var GUNT = GUNT || {};
 
 		GUNT.gmap.init();
 
-		setTimeout(function () {
-			GUNT.parallax.init();
-		}, 1000);
+		GUNT.parallax.init();
 
 		GUNT.gunts.init();
 		
