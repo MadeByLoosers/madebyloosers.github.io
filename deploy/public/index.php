@@ -244,7 +244,7 @@
               <div class="info hidden">
                 <h3>Caz</h3>
                 <h4>Innovations and Digital Accelerations Director</h4>
-                <p>Caz was born into a computer science family. She was one of the first people in the world to test the Beta service that we now call the "Internet". Using this in-depth knowledge, she's always finding new and innovating ways to lever digital into our analogue, tangible world.</p>
+                <p>Caz was born into a computer science family. She was one of the first people in the world to test the Beta service that we now call the "Internet". Using this in-depth knowledge, she's always finding new and innovating ways to lever digital into our analogue world.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
                   <dd>Chilli paneer tikka</dd>
