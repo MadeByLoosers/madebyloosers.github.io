@@ -226,18 +226,17 @@
           <div class="slideshow">
               <ul class="slides">
                 <li class="slideshow-slide">
-                  <h3>Hotgirlsandmetal.com</h3>
+                  <h3>Hot girls and metal</h3>
                   <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
                   <br/>
                   The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
+                  <!--<a href="#">Visit the site</a>-->
                   <img src="includes/img/feature.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
-                  <h3>beeswearinghats.com</h3>
+                  <h3>bees wearing hats</h3>
                   <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/feature.jpg" alt="" />
                 </li>
               
@@ -248,7 +247,6 @@
                   Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressively physical live show. Gorrilaz later copied this.
                   <br/>
                   Spactacles are currently on indefinite hiatus.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
                   <img src="includes/img/feature.jpg" alt="" />
                 </li>      
               </ul>
