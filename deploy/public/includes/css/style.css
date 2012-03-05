@@ -50,19 +50,10 @@
    Links
    ========================================================================== */
 
-   a:hover { color: #06e; }
    a:focus { outline: thin dotted; }
 
    /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
    a:hover, a:active { outline: 0; }
-
-   a {
-    -webkit-transition : color 0.5s ease;
-    -moz-transition    : color 0.5s ease;
-    -ms-transition     : color 0.5s ease;
-    -o-transition      : color 0.5s ease;
-    transition         : color 0.5s ease;
-  }
 
 
 /* =============================================================================
@@ -241,7 +232,7 @@
   #container {
     width: 980px;
     margin: 0 auto;
-    sborder: 1px solid #fff;
+    /*border: 1px solid #fff;*/
   }
 
   header {
@@ -321,7 +312,15 @@
   }
 
   a:hover {
-    color: #8ed200;
+    color: #72ea91;
+  }
+
+  a {
+    -webkit-transition : color 0.5s ease;
+    -moz-transition    : color 0.5s ease;
+    -ms-transition     : color 0.5s ease;
+    -o-transition      : color 0.5s ease;
+    transition         : color 0.5s ease;
   }
 
   p, a, dl {
@@ -371,7 +370,7 @@
   }
 
   ul#primary-nav li.selected a {
-    background: url('../img/arrow-up.png') no-repeat scroll 50% -13px;
+    background: url('../img/arrow-up.png') no-repeat scroll 50% -10px;
     color: #ff969a;
   }
 
@@ -380,7 +379,7 @@
   }
 
   ul#primary-nav li a:hover, ul#primary-nav li.selected a:hover {
-    background: url('../img/arrow-up.png') no-repeat scroll 50% -63px;
+    background: url('../img/arrow-up.png') no-repeat scroll 50% -60px;
   }
 
   #main {
@@ -443,10 +442,13 @@
     padding-top: 94px;
   }
 
-  /* Goatsee */
-  .section .goatsee {
-    background: none;
+  /* Goatse */
+  .section .goatse {
+    background:none;
     padding-bottom: 40px;
+  }
+  .section .goatse #goatse {
+	background: url(../img/bg_infographic.png) repeat left top;
   }
 
   #gunts, #case-studies {
@@ -664,18 +666,25 @@
   }
 
   .gunts .info h3 {
+    float:none;
     color: #111;
     font-size: 30px;
   }
 
   .gunts .info h4 {
-    margin: 0 0 40px 0;
+    margin: 5px 0 40px 0;
+  }
+
+  .gunts .info h4,
+  .gunts .info dt {
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     color: #111;
     font-size: 15px;
   }
 
   .gunts .info p {
     margin-bottom: 20px;
+    color:#111;
   }
 
   .gunts .info dd {
@@ -690,14 +699,12 @@
   /* footer */
   footer {
     text-align:right;
-    font-style:italic;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     text-transform:uppercase;
-    font-weight:bold;
     font-size:14px;
 
     background:#777;
-    color:#000;
+    color:#fff;
 
     margin:100px 0 0;
     overflow:hidden;
@@ -711,7 +718,7 @@
   footer .copyright {
     display: block;
     float: left;
-    padding: 25px 0 0;
+    padding: 29px 0 0;
   }
 
   footer ul {
@@ -722,10 +729,9 @@
     display: inline-block;
     margin-right:10px;
   }
-  footer ul li a,
-  footer ul li a:visited {
-    font-family:Arial, Helvetica, sans-serif;
-    color:#000;
+  footer ul li a {
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
+    color:#fff;
   }
   footer ul li a:hover {
     color: #72ea91;
@@ -774,7 +780,7 @@
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 480px) {
+  @media only screen and (min-width: 480px) {
     /* Style adjustments for viewports 480px and over go here */
 
   }
@@ -785,9 +791,193 @@
   }
 
   @media only screen and (max-width: 980px) {
-    
+  
+  }
 
 
+  /* Gunt london mobile styles */
+  @media only screen and (max-width: 980px) {
+    img {
+      max-width:100% !important;
+      height:auto !important;
+    }
+
+    /* general resets */
+      #container,
+      header,
+      h1, h2, h3,
+      .section,
+      .section .feature,
+      .section .content,
+      #approach,
+      #contact {
+        position:static;
+        height:auto;
+        width:auto;
+        float:none;
+        padding:0;
+        margin-top:0;
+        margin-bottom:0;
+      }
+
+      #container {
+        width:95%;
+      }
+
+    /* primary nav */
+      ul#primary-nav {
+        position:static;
+      }
+
+      ul#primary-nav li {
+        float:none;
+        width:100%;
+        margin:0 auto;
+        text-align:center;
+        padding:5px 0;   
+      }
+
+      ul#primary-nav li a {
+        background:none !important;
+        padding:0;
+        font-size:18px; 
+        font-weight:bold;
+      }
+
+    /* headers / headings */
+      header {
+        height:320px !important;
+      }
+
+      h1 {
+        height:100px !important;
+        width: 138px;
+        background-image:url("../img/logo-mobile.png");
+        margin:20px auto 0 auto;
+      }
+
+      h2 {
+        font-size:36px;
+        line-height:1;
+        margin-top:30px;
+        margin-bottom:10px;
+      }
+
+    /* sections */
+      #home,
+      #case-studies,
+      #gunts {
+        padding-top:0;
+      }
+
+      #main {
+        overflow: auto;
+        margin-top: 0;
+      }
+
+	/* goatse */
+	.section .goatse #goatse {
+		background:url(../img/infographic-infograph.png) no-repeat center top;
+	}
+	.goatse svg {
+		visibility:hidden;
+	}
+	  
+    /* team */
+      ul.gunts,
+      ul.gunts li,
+      ul.gunts li .photo,
+      ul.gunts li .info {
+        margin:0 auto;
+        text-align:center;
+        float:none;
+        position: static;
+      }
+
+      ul.gunts li .info {
+        display:block !important;
+        visibility:visible !important;
+        width: 180px;
+        height: auto;
+        margin: 0 auto 30px auto !important;
+        padding: 20px 20px 20px 20px;
+        background-color: #72ea91;
+        position: static;
+      }
+
+      .gunts .info h4 {
+        margin-bottom:0;
+      }
+
+      .gunts .info p,
+      .gunts .info dl {
+        display:none;
+      }
+
+    /* case studies */
+      .slideshow {
+        margin-top: 0;
+        width:100%;
+        overflow:hidden;
+      }
+
+      .slideshow .slideshow-slide {
+        position: relative;
+        margin-top:35px;
+        padding-top:200px;
+        height:auto;
+      }
+
+      .slideshow .slideshow-slide h3, 
+      .slideshow .slideshow-slide p, 
+      .slideshow .slideshow-slide a {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+      }
+
+      .flex-direction-nav {
+        position: absolute;
+        left:0;
+        top:0;
+        width: 100%;
+      }
+
+      .flex-direction-nav li:first-child {
+        float:left;
+      }
+
+      .flex-direction-nav li {
+        float:right;
+        margin:0;
+      }
+
+    /* contacts */
+      #gmap {
+        width: 100%;
+        height: 200px;
+        margin-top:0;
+      }
+
+    /* footer */
+      footer .footer-container { 
+        width: auto;
+        text-align:center;
+      }
+
+      footer .copyright {
+        float: none;
+        margin:0;
+        text-align:center;
+      }
+
+      footer ul {
+        padding: 20px;
+      }
+
+      footer img {
+        float:none;
+      }
   }
 
 

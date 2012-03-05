@@ -25,7 +25,7 @@
 <head>
   <meta charset="utf-8">
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
   <title>Gunt London - <?php echo $tagLine; ?></title>
   <meta name="description" content="">
@@ -69,7 +69,7 @@
         </div>
 
         <div class="section-content feature">
-          <img src="includes/img/feature.jpg" />
+          <img src="includes/img/feature.jpg" alt="" />
         </div>
       </div>
 
@@ -83,15 +83,12 @@
           </div>
         </div>
 
-        <div class="section-content feature goatsee">
-          <!--<div id="goatsee"></div>-->
-          <img src="includes/img/infographic-infograph.png" />
-
+        <div class="section-content feature goatse">
+          <div id="goatse"></div>
         </div>
 
-
       </div>
-
+	  
       <div id="gunts" class="section clearfix">
         <div class="section-header clearfix">
           <h2>The Gunts</h2>
@@ -132,10 +129,26 @@
               <div class="info hidden alt-position">
                 <h3>Pete X</h3>
                 <h4>Creative Director and Founder</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Pete's always tweaking ideas until they're perfect. He’s a born leader, ready to guide the Gunts far into the future.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Chana chicken</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>Vimeo</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Boadicea</dd>
+                </dd>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#000</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>Pintrest</dd>
                 </dl>
               </div>
             </li>
@@ -217,19 +230,18 @@
           <div class="slideshow">
               <ul class="slides">
                 <li class="slideshow-slide">
-                  <h3>Hotgirlsandmetal.com</h3>
+                  <h3>Hot girls and metal</h3>
                   <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
                   <br/>
                   The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
-                  <img src="includes/img/project-placeholder.jpg" alt="" />
+                  <!--<a href="#">Visit the site</a>-->
+                  <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
-                  <h3>beeswearinghats.com</h3>
+                  <h3>bees wearing hats</h3>
                   <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
-                  <img src="includes/img/feature.jpg" alt="" />
+                  <img src="includes/img/casestudies-beesinhats.png" alt="" />
                 </li>
               
                 <li class="slideshow-slide">
@@ -239,8 +251,7 @@
                   Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressively physical live show. Gorrilaz later copied this.
                   <br/>
                   Spactacles are currently on indefinite hiatus.</p>
-                  <a href="http://hotgirlsandmetal.com">Visit the site</a>
-                  <img src="includes/img/project-placeholder.jpg" alt="" />
+                  <img src="includes/img/casestudies-spac.jpg" alt="" />
                 </li>      
               </ul>
             </div>
@@ -275,7 +286,7 @@
         <li><a rel="external" href="http://www.twitter.com/guntlondon">Twitter</a></li>
         <li><a rel="external" href="http://www.pinterest.com/guntlondon">Pinterest</a></li>
         <li><a rel="external" href="http://www.flickr.com/photos/guntlondon">FlickR</a></li>
-        <li><a rel="external" href="http://www.linkedin.com/guntlondon">LinkedIn</a></li>
+        <li><a rel="external" href="http://www.linkedin.com/company/2458729">LinkedIn</a></li>
         <li><a rel="external" href="http://www.github.com/guntlondon">Github</a></li>
         <li><a rel="external" href="http://www.lastfm.com/user/guntlondon">LastFM</a></li>
         <li><a rel="external" href="http://www.vimeo.com/guntlondon">Vimeo</a></li>
@@ -293,6 +304,7 @@
   <script defer src="includes/js/mylibs/jquery.flexslider.min.js"></script>
   <script defer src="includes/js/mylibs/waypoints.min.js"></script>
   <script defer src="includes/js/script.js"></script>
+  <script defer src="https://raw.github.com/gist/901295/bf9a44b636a522e608bba11a91b8298acd081f50/ios-viewport-scaling-bug-fix.js"></script>
   
   <script>
     window._gaq = [['_setAccount','UA-29684348-1'],['_trackPageview'],['_trackPageLoadTime']];
