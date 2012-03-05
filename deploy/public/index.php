@@ -263,7 +263,7 @@
           <h2>Contact us</h2>
           <div class="content">
           <p>
-          We’re not in the habit of working with just anyone. And we’re probably not going to work with you either. But if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.com">canyoumakeourlogobigger@guntlondon.com</a>.
+            We’re not in the habit of working with just anyone, and we’re probably not going to work with you either. However if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.co">canyoumakeourlogobigger@guntlondon.com</a>.
           </p>
         </div>
                 
