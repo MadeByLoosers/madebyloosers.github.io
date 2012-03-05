@@ -666,18 +666,25 @@
   }
 
   .gunts .info h3 {
+    float:none;
     color: #111;
     font-size: 30px;
   }
 
   .gunts .info h4 {
-    margin: 0 0 40px 0;
+    margin: 5px 0 40px 0;
+  }
+
+  .gunts .info h4,
+  .gunts .info dt {
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     color: #111;
     font-size: 15px;
   }
 
   .gunts .info p {
     margin-bottom: 20px;
+    color:#111;
   }
 
   .gunts .info dd {

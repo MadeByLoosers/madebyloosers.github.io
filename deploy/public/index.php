@@ -135,15 +135,19 @@
                   <dd>Chana chicken</dd>
                 </dl>
                 <dl>
-                  <dt>API</dt>
+                  <dt>Favourite API</dt>
                   <dd>Vimeo</dd>
                 </dl>
-                <dl class="hidden">
-                  <dt>Queen: Boadicea</dt>
-                  <dd>Hex value: #000</dd>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Boadicea</dd>
+                </dd>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#000</dd>
                 </dl>
-                <dl class="hidden">
-                  <dt>Social network</dt>
+                <dl>
+                  <dt>Favourite Social network</dt>
                   <dd>Pintrest</dd>
                 </dl>
               </div>
