@@ -693,14 +693,12 @@
   /* footer */
   footer {
     text-align:right;
-    font-style:italic;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     text-transform:uppercase;
-    font-weight:bold;
     font-size:14px;
 
     background:#777;
-    color:#000;
+    color:#fff;
 
     margin:100px 0 0;
     overflow:hidden;
@@ -714,7 +712,7 @@
   footer .copyright {
     display: block;
     float: left;
-    padding: 25px 0 0;
+    padding: 29px 0 0;
   }
 
   footer ul {
@@ -725,10 +723,9 @@
     display: inline-block;
     margin-right:10px;
   }
-  footer ul li a,
-  footer ul li a:visited {
-    font-family:Arial, Helvetica, sans-serif;
-    color:#000;
+  footer ul li a {
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
+    color:#fff;
   }
   footer ul li a:hover {
     color: #72ea91;
