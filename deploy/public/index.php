@@ -117,7 +117,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Pete Graham on a Saturday Night</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#Classified</dd>
@@ -145,7 +145,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Queen of Hoxton</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#333</dd>
@@ -173,7 +173,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Boadicea</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#000</dd>
@@ -200,7 +200,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Brian May</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#X0X0X0</dd>
@@ -228,7 +228,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Freddie Mercury</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#FF00FF</dd>
@@ -256,7 +256,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Hera</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#E45A96</dd>
@@ -284,7 +284,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Steve Mc</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#FFCC00</dd>
@@ -312,7 +312,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Justin Bieber</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#000</dd>
