@@ -28,7 +28,7 @@
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
   <title>Gunt London - <?php echo $tagLine; ?></title>
-  <meta name="description" content="">
+  <meta name="description" content="Gunt create bleeding edge campaigns for the post digital age. We are a passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands. If you're a brand looking to engage consumers in an innovative, edgy way then Gunt is for you.">
   <meta name="author" content="Captain Gunt">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="includes/css/style.css">
