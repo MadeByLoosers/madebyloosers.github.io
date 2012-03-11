@@ -12,7 +12,7 @@
     "Reverse engineering the future",
     "Masterizing the tricks",
     "Future web digisavants",
-    "Bursting dotcom bubbles"
+    "Burst dotcom bubbles"
   );
   // select a random tag line
   $tagLine = $tagLines[array_rand($tagLines)];
@@ -75,7 +75,7 @@
         <div class="section-header clearfix">
           <h2>Our Approach</h2>
           <div class="content">
-            <p>The centre of our approach is always to look as far into the future as humanly possible. {gunt} surf the ever growing wave of digital innovation to always be two steps ahead of the competition.</p>
+            <p>The centre of our approach is always to look as far into the future as humanly possible. Gunt surf the ever growing wave of digital innovation to always be two steps ahead of the competition.</p>
           </div>
         </div>
 
@@ -90,7 +90,7 @@
           <h2>The Gunts</h2>
 
           <div class="content">
-            <p>Few pass the rigorous testing that is the {gunt} interview process. These hardened technical warriors are the core elite that lead all our cutting edge projects. Rollover to get to know a little more about these complicated yet beautiful specimens of creativity.</p>
+            <p>Few pass the rigorous testing that is the Gunt interview process. These hardened technical warriors are the core elite that lead all our cutting edge projects. Rollover to get to know a little more about these complicated yet beautiful specimens of creativity.</p>
           </div>
         </div>
         
