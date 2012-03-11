@@ -658,7 +658,7 @@
     background-color: #72ea91;
     position: absolute;
     top: 0;
-    z-index: 50;
+    z-index: 150;
   }
 
   .gunts .info.alt-position {
@@ -973,6 +973,15 @@
 
       footer ul {
         padding: 20px;
+      }
+
+      footer .footer-container ul {
+        float: left;
+        list-style: none;
+      }
+
+      footer .footer-container ul li {
+        display: block;
       }
 
       footer img {
