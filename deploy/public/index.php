@@ -12,6 +12,7 @@
     "Reverse engineering the future",
     "Masterizing the tricks",
     "Future web digisavants",
+    "Bursting dotcom bubbles"
   );
   // select a random tag line
   $tagLine = $tagLines[array_rand($tagLines)];
@@ -60,7 +61,7 @@
           <h2><?php echo $tagLine; ?></h2>
           <div class="content">
             <p>Gunt create bleeding edge campaigns for the post digital age. </p>
-            <p>We are a passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands. </p>
+            <p>We are a passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
             <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in an innovative, edgy way then Gunt is for you.</p>
           </div>
         </div>
@@ -74,8 +75,7 @@
         <div class="section-header clearfix">
           <h2>Our Approach</h2>
           <div class="content">
-            <p><strong>{Something}</strong> about our approach</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>The centre of our approach is always to look as far into the future as humanly possible. {gunt} surf the ever growing wave of digital innovation to always be two steps ahead of the competition.</p>
           </div>
         </div>
 
@@ -90,7 +90,7 @@
           <h2>The Gunts</h2>
 
           <div class="content">
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Few pass the rigorous testing that is the {gunt} interview process. These hardened technical warriors are the core elite that lead all our cutting edge projects. Rollover to get to know a little more about these complicated yet beautiful specimens of creativity.</p>
           </div>
         </div>
         
@@ -328,8 +328,7 @@
         <div class="section-header clearfix">
           <h2>Case studies</h2>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Here you'll find our ever growing list of projects. Only the select few have been chosen to be nurtured and sculpted into the beautiful flowers that they are today. Make sure you check back for the latest and greatest in digital advancements.</p>
           </div>
         </div>
 
@@ -370,7 +369,7 @@
           <h2>Contact us</h2>
           <div class="content">
           <p>
-            We’re not in the habit of working with just anyone, and we’re probably not going to work with you either. However if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.co">canyoumakeourlogobigger@guntlondon.com</a>.
+            We’re not in the habit of working with just anyone and we’re probably not going to work with you either. However if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.co">canyoumakeourlogobigger@guntlondon.com</a>.
           </p>
         </div>
                 
