@@ -392,6 +392,7 @@ GUNT.goatse = (function(){
 					$facts = $(this).parent().find('dl');
 					$facts.addClass('hidden');
 					var index = Math.floor(Math.random() * $facts.length);
+					//console.log('index ' + index);
 					$facts.eq(index).removeClass('hidden');
 				},
 				mouseleave: function(){

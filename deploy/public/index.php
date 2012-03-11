@@ -28,7 +28,7 @@
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
   <title>Gunt London - <?php echo $tagLine; ?></title>
-  <meta name="description" content="">
+  <meta name="description" content="Gunt create bleeding edge campaigns for the post digital age. We are a passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands. If you're a brand looking to engage consumers in an innovative, edgy way then Gunt is for you.">
   <meta name="author" content="Captain Gunt">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="includes/css/style.css">
@@ -59,12 +59,9 @@
         <div class="section-header clearfix">
           <h2><?php echo $tagLine; ?></h2>
           <div class="content">
-            <p><strong>{gunt}</strong> create bleeding edge campaigns for the post digital age.</p>
-            <p>We are a passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
-            <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
-            <p><strong>{Gunt}</strong> is an independent digital agency established in <strong>{London}</strong> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
-            <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
-            <p>While we set up our portfolio, we want to share our thoughts with you.</p>
+            <p>Gunt create bleeding edge campaigns for the post digital age. </p>
+            <p>We are a passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands. </p>
+            <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in an innovative, edgy way then Gunt is for you.</p>
           </div>
         </div>
 
@@ -78,8 +75,7 @@
           <h2>Our Approach</h2>
           <div class="content">
             <p><strong>{Something}</strong> about our approach</p>
-            <p>We are passionate collective of creatives, designers and strategists, who live for crafting great advertising for brilliant brands.</p>
-            <p>Gunt are so future it hurts. If you're a brand looking to engage consumers in a innovative edgy way then Gunt is for you.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
         </div>
 
@@ -94,7 +90,7 @@
           <h2>The Gunts</h2>
 
           <div class="content">
-            <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
         
@@ -105,10 +101,26 @@
               <div class="info hidden">
                 <h3>Pete</h3>
                 <h4>Creative Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>With many successful creative campaigns under his belt, Pete was hired at Gunt to really push the boundaries of where Digital meets Physical.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Both of them</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>Api Days</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Pete Graham on a Saturday Night</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#Classified</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>Friends Reunited</dd>
                 </dl>
               </div>
             </li>
@@ -117,10 +129,26 @@
               <div class="info hidden">
                 <h3>James</h3>
                 <h4>Account Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>James has been fortunate to have worked at many of the top studios round the country. Using his top-notch people skills, he's always knows how to rub people up... the right way!</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Daighi, slow cooked dry meat</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>LinkedIn</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Queen of Hoxton</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#333</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>LinkedIn</dd>
                 </dl>
               </div>
             </li>
@@ -141,7 +169,7 @@
                 <dl>
                   <dt>Favourite Queen</dt>
                   <dd>Boadicea</dd>
-                </dd>
+                </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
                   <dd>#000</dd>
@@ -157,10 +185,26 @@
               <div class="info hidden alt-position">
                 <h3>Mike</h3>
                 <h4>Creative Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Michael really loves bikes. His aim is to one day sit on the board of D&amp;AD executives.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Daighi, slow cooked dry meat</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>Instagram</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Brian May</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#X0X0X0</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>MySpace</dd>
                 </dl>
               </div>
             </li>
@@ -169,10 +213,26 @@
               <div class="info hidden">
                 <h3>Marie</h3>
                 <h4>Strategy Director</h4>
-                <p>She’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Marie is one of France's top strategic brains. She's always tugging at the strings of digital integration. This allows for some of the best thinking for the best brands.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Chilli paneer tikka</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>Facebook</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Freddie Mercury</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#FF00FF</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>The Pub</dd>
                 </dl>
               </div>
             </li>
@@ -181,10 +241,26 @@
               <div class="info hidden">
                 <h3>Caz</h3>
                 <h4>Innovations and Digital Accelerations Director</h4>
-                <p>She’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>Caz was born into a computer science family. She was one of the first people in the world to test the Beta service that we now call the "Internet". Using this in-depth knowledge, she's always finding new and innovating ways to lever digital into our analogue world.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Chilli paneer tikka</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>Flickr</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Hera</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#E45A96</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>Twitter</dd>
                 </dl>
               </div>
             </li>
@@ -193,10 +269,26 @@
               <div class="info hidden alt-position">
                 <h3>Big John</h3>
                 <h4>Creative Director</h4>
-                <p>He’s a born leader, ready to guide the {Gunts} far into the future.</p>
+                <p>From a copywriter background at some of the UKs best red top papers, John is always pushing the written word into new places. John's current ethos is heavily based around trying to re-invent the common day pun.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Daighi, slow cooked dry meat</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>LastFM</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Steve Mc</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#FFCC00</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>I don't like people</dd>
                 </dl>
               </div>
             </li>
@@ -205,10 +297,26 @@
               <div class="info hidden alt-position">
                 <h3>Nico</h3>
                 <h4>Creative Director</h4>
-                <p>Merde</p>
+                <p>Originally from the deep south of France, Nico brings a completely different approach to the creative process. Turning it inside out over and over again.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
-                  <dd>Daighi lamb</dd>
+                  <dd>Mixed Grill</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>Twitter</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Justin Bieber</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#000</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>Daily Burn</dd>
                 </dl>
               </div>
             </li>
@@ -220,9 +328,8 @@
         <div class="section-header clearfix">
           <h2>Case studies</h2>
           <div class="content">
-            <p><strong>{gunt}</strong> is an independent digital agency established in <strong>{London}</strong> by 6 partners with extensive industry experience, developing creative concepts for national and international brands. We work closely with our clients to deliver compelling, useful and engaging interactive experiences across all digital platforms.</p>
-            <p>Aware of the overwhelming amount of information and noise surrounding us, we aim to speak a clean, clear and meaningful message.</p>
-            <p>While we set up our portfolio, we want to share our thoughts with you.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
 

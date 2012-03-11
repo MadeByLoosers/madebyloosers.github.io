@@ -672,7 +672,7 @@
   }
 
   .gunts .info h4 {
-    margin: 5px 0 40px 0;
+    margin: 5px 0 30px 0;
   }
 
   .gunts .info h4,
@@ -683,7 +683,7 @@
   }
 
   .gunts .info p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color:#111;
   }
 
@@ -790,10 +790,6 @@
 
   }
 
-  @media only screen and (max-width: 980px) {
-  
-  }
-
 
   /* Gunt london mobile styles */
   @media only screen and (max-width: 980px) {
@@ -878,11 +874,14 @@
 	/* goatse */
 	.section .goatse #goatse {
 		background:url(../img/infographic-infograph.png) no-repeat center top;
+		background-size:cover;
+		height:460px;
+		width:100%;
 	}
 	.goatse svg {
 		visibility:hidden;
 	}
-	  
+	
     /* team */
       ul.gunts,
       ul.gunts li,
@@ -989,6 +988,11 @@
       }
   }
 
+  @media only screen and (max-width: 540px) {
+	.section .goatse #goatse {
+		height:280px;
+	}
+  }
 
 
 /* ==|== print styles =======================================================
