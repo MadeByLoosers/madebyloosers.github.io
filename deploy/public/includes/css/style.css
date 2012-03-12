@@ -880,6 +880,7 @@
 	}
 	.goatse svg {
 		visibility:hidden;
+    display:none;
 	}
 	
     /* team */
