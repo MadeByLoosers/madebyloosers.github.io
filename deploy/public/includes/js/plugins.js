@@ -18,3 +18,26 @@ window.log = function(){
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 
+
+// https://raw.github.com/gist/901295/bf9a44b636a522e608bba11a91b8298acd081f50/ios-viewport-scaling-bug-fix.js
+// By @mathias, @cheeaun and @jdalton
+(function(doc) {
+
+  var addEvent = 'addEventListener',
+      type = 'gesturestart',
+      qsa = 'querySelectorAll',
+      scales = [1, 1],
+      meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+  function fix() {
+    meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+    doc.removeEventListener(type, fix, true);
+  }
+
+  if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+    fix();
+    scales = [.25, 1.6];
+    doc[addEvent](type, fix, true);
+  }
+
+}(document));

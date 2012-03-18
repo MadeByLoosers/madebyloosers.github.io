@@ -22,15 +22,13 @@ var GUNT = GUNT || {};
 
 		GUNT.waypoints.init();
 
-		//GUNT.goatse.init();
+		GUNT.goatse.init();
 
 		GUNT.initLinks.init();
 
 		GUNT.gmap.init();
 
-		setTimeout(function () {
-			GUNT.parallax.init();
-		}, 1000);
+		GUNT.parallax.init();
 
 		GUNT.gunts.init();
 		
@@ -127,7 +125,7 @@ GUNT.waypoints = (function(){
 				$active = $active.prev();
 			}
 
-			// if ( target == "approach" ) GUNT.goatse.animate();
+			if ( target == "approach" ) GUNT.goatse.animate();
 
 			$("#primary-nav li.selected").removeClass("selected");
 			$active.addClass("selected");
@@ -151,12 +149,12 @@ GUNT.goatse = (function(){
 		settings = {},
 		goatse = null,
 
-		brand,
+		brand, deploy,
 		fingerLeft1, fingerLeft2, fingerLeft3,
 		fingerRight1, fingerRight2, fingerRight3,
 		
 		strings = [
-			"Moving\nForward",
+			"Innovation",
 			"Digital\nStrategy",
 			"Social\nAmplification",
 			"Future",
@@ -165,21 +163,21 @@ GUNT.goatse = (function(){
 		],
 
 		initPositions = [
-			{ x : 400, y : 160 },
-			{ x : 350, y : 250 },
-			{ x : 400, y : 340 },
-			{ x : 580, y : 160 },
-			{ x : 630, y : 250 },
-			{ x : 580, y : 340 }
+			{ x : 400, y : 120 },
+			{ x : 350, y : 210 },
+			{ x : 400, y : 300 },
+			{ x : 580, y : 120 },
+			{ x : 630, y : 210 },
+			{ x : 580, y : 300 }
 		],
 
 		finalPositions = [
-			{ x : 350, y : 90 },
-			{ x : 260, y : 250 },
-			{ x : 350, y : 390 },
-			{ x : 670, y : 100 },
-			{ x : 720, y : 250 },
-			{ x : 670, y : 400 }
+			{ x : 370, y : 80 },
+			{ x : 300, y : 210 },
+			{ x : 370, y : 340 },
+			{ x : 610, y : 80 },
+			{ x : 680, y : 210 },
+			{ x : 610, y : 340 }
 		];
 
 	function init () {
@@ -190,11 +188,13 @@ GUNT.goatse = (function(){
 		
 		var 
 			width = 980,
-			height = 500;
+			height = 500,
+			offset = 40;
 
 		goatse = Raphael("goatse", width, height);
 
 		brand = goatse.set();
+		deploy = goatse.set();
 		fingerLeft1 = goatse.set();
 		fingerLeft2 = goatse.set();
 		fingerLeft3 = goatse.set();
@@ -202,19 +202,45 @@ GUNT.goatse = (function(){
 		fingerRight2 = goatse.set();
 		fingerRight3 = goatse.set();
 		
+		// Deploy
+		var
+			deployPath,
+			deployText;
+			
+		deployPath = goatse.path("M100,0L100,50 50,100 0,50 0,0C0,0 50,15 100,0");
+		deployPath.attr({
+			"fill" : "#FF979C",
+			"stroke-width" : "0",
+			"stroke-opacity" : "0",
+			"transform" : "t440,300"
+		});
+		
+		deployText = goatse.text(50, 35, "Deploy");
+		deployText.attr({
+			"fill": "#000",
+			"font-family" : "Georgia",
+			"font-size" : "18",
+			"font-style" : "italic",
+			"transform" : "t440,300"
+		});
+		
+		deploy.push(
+			deployPath, deployText
+		);
+		
 		// Brand
 		var
 			brandCircle,
 			brandText;
 
-		brandCircle = goatse.circle(width*.5, height*.5, 110);
+		brandCircle = goatse.circle(width*.5, height*.5 - offset, 110);
 		brandCircle.attr({
 			"fill" : "#FF979C",
 			"stroke-width" : "0",
 			"stroke-opacity" : "0"
 		});
 
-		brandText = goatse.text(width*.5, height*.5, "Your Brand");
+		brandText = goatse.text(width*.5, height*.5 - offset, "Your Brand");
 		brandText.attr({
 			"fill": "#72EA91",
 			"font-family" : "Georgia",
@@ -233,6 +259,7 @@ GUNT.goatse = (function(){
 		createFinger( 3, fingerRight1 );
 		createFinger( 4, fingerRight2 );
 		createFinger( 5, fingerRight3 );
+		
 	};
 
 	function createFinger( index, Rset ){
@@ -247,7 +274,7 @@ GUNT.goatse = (function(){
 		text.attr({
 			"fill": "#72EA91",
 			"font-family" : "Georgia",
-			"font-size" : "14",
+			"font-size" : (index == 2 ? "14" : "16"),
 			"font-style" : "italic"
 		});
 		circle.attr({
@@ -261,13 +288,14 @@ GUNT.goatse = (function(){
 
 	function animateGoatse () {
 
-		var brandAnim = Raphael.animation({
-			"r" : 200,
+		deploy.animate({
+			"transform" : "t440,370"
+		}, 400, ">");
+		
+		brand.animate({
+			"r" : 160,
 			"font-size" : 24
 		}, 400, ">");
-
-		//brand.animate(brandAnim.delay(50));
-		brand.animate(brandAnim);
 
 		animateFinger( 0, fingerLeft1 );
 		animateFinger( 1, fingerLeft2 );
@@ -360,6 +388,12 @@ GUNT.goatse = (function(){
 					$(this).next().removeClass("hidden");
 					$('.photo').addClass('de-emphasise'); 
 					$(this).removeClass('de-emphasise');
+					// radomly select which fact to show
+					$facts = $(this).parent().find('dl');
+					$facts.addClass('hidden');
+					var index = Math.floor(Math.random() * $facts.length);
+					//console.log('index ' + index);
+					$facts.eq(index).removeClass('hidden');
 				},
 				mouseleave: function(){
 					$(this).next().addClass("hidden");
@@ -412,7 +446,7 @@ GUNT.goatse = (function(){
 				start: function(slider) {
 					// fixes all slides being visible at start
 					$('.slides li').not(':first').css('display', 'none');
-				},
+				}
 			});
 
 		};
