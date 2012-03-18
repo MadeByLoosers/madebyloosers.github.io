@@ -129,7 +129,7 @@
               <div class="info hidden">
                 <h3>James</h3>
                 <h4>Account Director</h4>
-                <p>James has been fortunate to have worked at many of the top studios round the country. Using his top-notch people skills, he's always knows how to rub people up... the right way!</p>
+                <p>James has been fortunate to have worked at many of the top studios round the country. Using his top-notch people skills, he always knows how to rub people up... the right way!</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
                   <dd>Daighi, slow cooked dry meat</dd>
