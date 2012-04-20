@@ -12,7 +12,8 @@
     "Reverse engineering the future",
     "Masterizing the tricks",
     "Future web digisavants",
-    "Burst dotcom bubbles"
+    "Burst dotcom bubbles",
+    "Making your digital dreams a reality"
   );
   // select a random tag line
   $tagLine = $tagLines[array_rand($tagLines)];
