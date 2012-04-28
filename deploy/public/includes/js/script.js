@@ -549,7 +549,7 @@ GUNT.goatse = (function(){
 			
 			var script = document.createElement("script");
 			script.type = "text/javascript";
-			script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyBfbIwry2gb6I6P-Q2E7lQwa--ZZzUcEjM&sensor=false&callback=GUNT.gmap.loadMap";
+			script.src = "http://maps.googleapis.com/maps/api/js?sensor=false&callback=GUNT.gmap.loadMap";
 			document.body.appendChild(script);
 
 		};
