@@ -153,6 +153,34 @@
                 </dl>
               </div>
             </li>
+            <li id="gunts-mc">
+              <div class="photo"></div>
+              <div class="info hidden">
+                <h3>Matt</h3>
+                <h4>Creative Director</h4>
+                <p>Before becoming Gunt's sixth Creative Director, Matt built some of the world's most secure websites, for MI5, Fort Knox, and McDonalds amongst others</p>
+                <dl>
+                  <dt>Favourite Needoo's dish</dt>
+                  <dd>Daighi, slow cooked dry meat</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite API</dt>
+                  <dd>Flickr</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Queen</dt>
+                  <dd>Pete X Graham</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Hex value</dt>
+                  <dd>#ff0000</dd>
+                </dl>
+                <dl>
+                  <dt>Favourite Social network</dt>
+                  <dd>Real Life (1.0)</dd>
+                </dl>
+              </div>
+            </li>
             <li id="gunts-pxg">
               <div class="photo"></div>
               <div class="info hidden alt-position">
@@ -241,7 +269,7 @@
               <div class="photo"></div>
               <div class="info hidden">
                 <h3>Caz</h3>
-                <h4>Innovations and Digital Accelerations Director</h4>
+                <h4>Innovation and Digital Acceleration Director</h4>
                 <p>Caz was born into a computer science family. She was one of the first people in the world to test the Beta service that we now call the "Internet". Using this in-depth knowledge, she's always finding new and innovating ways to lever digital into our analogue world.</p>
                 <dl>
                   <dt>Favourite Needoo's dish</dt>
@@ -265,6 +293,16 @@
                 </dl>
               </div>
             </li>
+            <li id="gunts-you">
+              <div class="photo"></div>
+              <div class="info hidden">
+                <h3>Join us</h3>
+                <h4>Are you worthy of being part of Gunt?</h4>
+                <p>Gunt are holding a rigorous recruitment campaign, to locate the crème de la crème, the very best of the best, those worthy of a place in history, of a prime seat at the start of a revolution.</p>
+                <p>If you think you have what it takes, contact us:</p>
+                <h4>joinus@guntlondon.com / @guntlondon</h4>
+              </div>
+            </li>
             <li id="gunts-jl">
               <div class="photo"></div>
               <div class="info hidden alt-position">
@@ -285,7 +323,7 @@
                 </dl>
                 <dl>
                   <dt>Favourite Hex value</dt>
-                  <dd>#FFCC00</dd>
+                  <dd>#bada55</dd>
                 </dl>
                 <dl>
                   <dt>Favourite Social network</dt>

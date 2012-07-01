@@ -564,8 +564,8 @@
   }
 
   .gunts li .photo {
-    width: 220px;
-    height: 300px;
+    width: 172px;
+    height: 234px;
     margin: 0 20px 20px 0;
     background: transparent url(../img/team-sprite.jpg) no-repeat left top;
     z-index: 0;
@@ -591,59 +591,75 @@
     }
 
     .gunts #gunts-jb .photo {
-      background-position: -220px top;
+      background-position: -172px top;
     }
 
     .gunts #gunts-jb .photo:hover {
-      background-position: -220px bottom;
+      background-position: -172px bottom;
     }
 
     .gunts #gunts-pxg .photo {
-      background-position: -440px top;
+      background-position: -344px top;
     }
 
     .gunts #gunts-pxg .photo:hover {
-      background-position: -440px bottom;
+      background-position: -344px bottom;
     }
 
     .gunts #gunts-ma .photo {
-      background-position: -660px top;
+      background-position: -516px top;
     }
 
     .gunts #gunts-ma .photo:hover {
-      background-position: -660px bottom;
+      background-position: -516px bottom;
     }
 
     .gunts #gunts-ml .photo {
-      background-position: -880px top;
+      background-position: -688px top;
     }
 
     .gunts #gunts-ml .photo:hover {
-      background-position: -880px bottom;
+      background-position: -688px bottom;
     }
 
     .gunts #gunts-cl .photo {
-      background-position: -1100px top;
+      background-position: -860px top;
     }
 
     .gunts #gunts-cl .photo:hover {
-      background-position: -1100px bottom;
+      background-position: -860px bottom;
     }
 
     .gunts #gunts-jl .photo {
-      background-position: -1320px top;
+      background-position: -1032px top;
     }
 
     .gunts #gunts-jl .photo:hover {
-      background-position: -1320px bottom;
+      background-position: -1032px bottom;
     }
 
     .gunts #gunts-np .photo {
-      background-position: -1540px top;
+      background-position: -1204px top;
     }
 
     .gunts #gunts-np .photo:hover {
-      background-position: -1540px bottom;
+      background-position: -1204px bottom;
+    }
+
+    .gunts #gunts-mc .photo {
+      background-position: -1376px top;
+    }
+
+    .gunts #gunts-mc .photo:hover {
+      background-position: -1376px bottom;
+    }
+
+    .gunts #gunts-you .photo {
+      background-position: -1548px top;
+    }
+
+    .gunts #gunts-you .photo:hover {
+      background-position: -1548px bottom;
     }
 
     .gunts li .photo:hover {
@@ -651,10 +667,10 @@
     }
 
   .gunts .info {
-    width: 420px;
-    height: 250px;
-    margin-left: 240px;
-    padding: 30px 20px 20px;
+    width: 324px;
+    height: 194px;
+    margin-left: 192px;
+    padding: 20px 20px 20px 20px;
     background-color: #72ea91;
     position: absolute;
     top: 0;
@@ -662,33 +678,37 @@
   }
 
   .gunts .info.alt-position {
-    margin-left: -480px;
+    margin-left: -384px;
   }
 
   .gunts .info h3 {
     float:none;
     color: #111;
-    font-size: 30px;
+    font-size: 20px;
+    width:auto;
   }
 
   .gunts .info h4 {
-    margin: 5px 0 30px 0;
+    margin: 5px 0 10px 0;
   }
 
   .gunts .info h4,
   .gunts .info dt {
     font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     color: #111;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .gunts .info p {
     margin-bottom: 10px;
     color:#111;
+    font-size:12px;
+    line-height:18px;
   }
 
   .gunts .info dd {
     color: #111;
+    font-size:12px;
   }
 
   #gunts .section-content {
@@ -897,10 +917,10 @@
       ul.gunts li .info {
         display:block !important;
         visibility:visible !important;
-        width: 180px;
+        width: 150px;
         height: auto;
         margin: 0 auto 30px auto !important;
-        padding: 20px 20px 20px 20px;
+        padding: 20px 10px 20px 10px;
         background-color: #72ea91;
         position: static;
       }
