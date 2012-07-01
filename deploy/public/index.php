@@ -13,7 +13,8 @@
     "Masterizing the tricks",
     "Future web digisavants",
     "Burst dotcom bubbles",
-    "Making your digital dreams a reality"
+    "Making your digital dreams a reality",
+    "Maxifying the value proposition of YOUR digital destinations"
   );
   // select a random tag line
   $tagLine = $tagLines[array_rand($tagLines)];
