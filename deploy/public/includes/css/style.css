@@ -1007,7 +1007,7 @@
       }
 
       footer .footer-container ul {
-        float: left;
+        /*float: left;*/
         list-style: none;
       }
 
