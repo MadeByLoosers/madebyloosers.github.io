@@ -1,12 +1,12 @@
-/* 
+/*
  * HTML5 ✰ Boilerplate
  *
- * What follows is the result of much research on cross-browser styling. 
+ * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  *
  * Detailed information about this CSS: h5bp.com/css
- * 
+ *
  * ==|== normalize ==========================================================
  */
 
@@ -36,7 +36,7 @@
 
  body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-/* 
+/*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
  * Also: hot pink! (or customize the background color to match your design)
@@ -106,13 +106,13 @@
 
 /*
  * 1. Improve image quality when scaled in IE7: h5bp.com/d
- * 2. Remove the gap between images and borders on image containers: h5bp.com/e 
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/e
  */
 
  img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
 /*
- * Correct overflow not hidden in IE9 
+ * Correct overflow not hidden in IE9
  */
 
  svg:not(:root) { overflow: hidden; }
@@ -135,9 +135,9 @@
    /* Indicate that 'label' will shift focus to the associated form element */
    label { cursor: pointer; }
 
-/* 
- * 1. Correct color not inheriting in IE6/7/8/9 
- * 2. Correct alignment displayed oddly in IE6/7 
+/*
+ * 1. Correct color not inheriting in IE6/7/8/9
+ * 2. Correct alignment displayed oddly in IE6/7
  */
 
  legend { border: 0; *margin-left: -7px; padding: 0; }
@@ -178,14 +178,14 @@
  input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
  input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 
-/* 
- * Remove inner padding and border in FF3/4: h5bp.com/l 
+/*
+ * Remove inner padding and border in FF3/4: h5bp.com/l
  */
 
  button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 
-/* 
- * 1. Remove default vertical scrollbar in IE6/7/8/9 
+/*
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
  * 2. Allow only vertical resizing
  */
 
@@ -218,7 +218,7 @@
   }
 
 /* ==|== primary styles =====================================================
-   Author: 
+   Author:
    ========================================================================== */
 
    html {
@@ -253,9 +253,9 @@
     /*
     width: 441px;
     height: 335px;
-    
+
     display: block;
-    
+
     position: fixed;
 
     text-indent: -99999px;
@@ -483,8 +483,8 @@
     padding-top: 23px;
   }
 
-  .slideshow .slideshow-slide h3, 
-  .slideshow .slideshow-slide p, 
+  .slideshow .slideshow-slide h3,
+  .slideshow .slideshow-slide p,
   .slideshow .slideshow-slide a {
     width: 460px;
     float: right;
@@ -579,7 +579,7 @@
     background-position: left top, left top;
   }
 
-  /* firefox doesn't support background-position-x 
+  /* firefox doesn't support background-position-x
      do all sprite positioning manually */
 
     .gunts #gunts-pg .photo {
@@ -730,7 +730,7 @@
     overflow:hidden;
   }
   footer .footer-container {
-    
+
     width: 980px;
     margin: 0 auto;
   }
@@ -757,7 +757,7 @@
     color: #72ea91;
   }
 
-  footer img { 
+  footer img {
     float:left;
     margin-bottom:15px;
   }
@@ -787,7 +787,7 @@
    /* Hide visually and from screenreaders, but maintain layout */
    .invisible { visibility: hidden; }
 
-   /* Contain floats: h5bp.com/q */ 
+   /* Contain floats: h5bp.com/q */
    .clearfix:before, .clearfix:after { content: ""; display: table; }
    .clearfix:after { clear: both; }
    .clearfix { zoom: 1; }
@@ -850,13 +850,13 @@
         width:100%;
         margin:0 auto;
         text-align:center;
-        padding:5px 0;   
+        padding:5px 0;
       }
 
       ul#primary-nav li a {
         background:none !important;
         padding:0;
-        font-size:18px; 
+        font-size:18px;
         font-weight:bold;
       }
 
@@ -902,7 +902,7 @@
 		visibility:hidden;
     display:none;
 	}
-	
+
     /* team */
       ul.gunts,
       ul.gunts li,
@@ -934,6 +934,10 @@
         display:none;
       }
 
+      .gunts li .de-emphasise {
+        background-image: url(../img/team-sprite.jpg);
+      }
+
     /* case studies */
       .slideshow {
         margin-top: 0;
@@ -948,8 +952,8 @@
         height:auto;
       }
 
-      .slideshow .slideshow-slide h3, 
-      .slideshow .slideshow-slide p, 
+      .slideshow .slideshow-slide h3,
+      .slideshow .slideshow-slide p,
       .slideshow .slideshow-slide a {
         width: 100%;
         float: none;
@@ -980,7 +984,7 @@
       }
 
     /* footer */
-      footer .footer-container { 
+      footer .footer-container {
         width: auto;
         text-align:center;
       }
