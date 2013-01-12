@@ -125,7 +125,9 @@ GUNT.waypoints = (function(){
         $active = $active.prev();
       }
 
-      if ( target == "approach" ) GUNT.goatse.animate();
+      if ( target == "approach" ) {
+        setTimeout(GUNT.goatse.animate, 1000);
+      }
 
       $("#primary-nav li.selected").removeClass("selected");
       $active.addClass("selected");
