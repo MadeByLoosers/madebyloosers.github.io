@@ -410,14 +410,14 @@
                   <img src="includes/img/casestudies-guntmas.jpg" alt="Guntmas" />
                 </li>
 
-
-<?php /*
                 <li class="slideshow-slide">
                   <h3>bees wearing hats</h3>
                   <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
                   <img src="includes/img/casestudies-beesinhats.png" alt="" />
                 </li>
 
+
+<?php /*
                 <li class="slideshow-slide">
                   <h3>Hot girls and metal</h3>
                   <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
