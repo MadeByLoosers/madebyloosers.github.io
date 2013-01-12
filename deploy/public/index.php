@@ -377,7 +377,7 @@
               <ul class="slides">
                 <li class="slideshow-slide">
                   <h3>The Unit Deconverter</h3>
-                  <p>Have you ever wondered how many Blue Whale penises will fit into 10 meters? Or how many Michael Van Wijk's (Wolf from Gladiators) are in 2.5 tons?<br/>
+                  <p>Have you ever wondered how many Blue Whale penises will fit into 10 meters? Or how many Michael Van Wijks (Wolf from Gladiators) are in 2.5 tons?<br/>
                   Then wonder no more! <br/>
                   The Unit Deconverter turns useful units into everyone's favourite vital statistics.</p>
                   <p><a href="http://unitdeconverter.com" rel="external">Visit the Unit Deconverter</a></p>
