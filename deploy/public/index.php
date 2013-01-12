@@ -380,14 +380,14 @@
                   <p>Have you ever wondered how many Blue Whale penises will fit into 10 meters? Or how many Michael Van Wijk's (Wolf from Gladiators) are in 2.5 tons?<br/>
                   Then wonder no more! <br/>
                   The Unit Deconverter turns useful units into everyone's favourite vital statistics.</p>
-                  <p><a href="http://unitdeconverter.com" rel="external">Visit the site</a></p>
+                  <p><a href="http://unitdeconverter.com" rel="external">Visit the Unit Deconverter</a></p>
                   <img src="includes/img/casestudies-unit-deconverter.jpg" alt="The Unit Deconverter" />
                 </li>
 
                 <li class="slideshow-slide">
                   <h3>Campaign For Real Names</h3>
                   <p>Are you having trouble naming a new-born? Why not use the Campaign for Real Names to find a delightful yet under-used name. A name with pedigree. A name with history.</p>
-                  <p><a href="http://campaignforrealnames.com" rel="external">Visit the site</a></p>
+                  <p><a href="http://campaignforrealnames.com" rel="external">Visit the Campaign For Real Names</a></p>
                   <img src="includes/img/casestudies-real-names.jpg" alt="The campaign for real names" />
                 </li>
 
@@ -397,7 +397,7 @@
                   <h3>Favourite Question</h3>
                   <p>What's that burning question you've always wanted to ask?<br/>
                   Through Twitter and this website, you can add your answers and check to see what everyone else thinks.</p>
-                  <p><a href="http://favouritequestion.com" rel="external">Visit the site</a></p>
+                  <p><a href="http://favouritequestion.com" rel="external">Visit Favourite Question</a></p>
                   <img src="includes/img/casestudies-favourite-q.jpg" alt="Favourite Question" />
                 </li>
                 */
@@ -406,7 +406,7 @@
                 <li class="slideshow-slide">
                   <h3>Guntmas</h3>
                   <p>To celebrate the end of year generic non-denominational seasonal winter festivalmas, we produced this Twitter-seeded Gunt e-card. Inspired by the current trend of lightly scripted entertainment shows, we collaborated with the expert Amy-Jean Smith (Make-up artist) &amp; Jessica Nurse (Model).</p>
-                  <p><a href="http://guntmas.guntlondon.com" rel="external">Visit the site</a></p>
+                  <p><a href="http://guntmas.guntlondon.com" rel="external">Visit the Guntmas card</a></p>
                   <img src="includes/img/casestudies-guntmas.jpg" alt="Guntmas" />
                 </li>
 
