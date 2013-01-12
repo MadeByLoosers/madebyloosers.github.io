@@ -1,5 +1,5 @@
 <?php
-  
+
   // set all tag lines
   $tagLines = array(
     "So future it hurts",
@@ -86,7 +86,7 @@
         </div>
 
       </div>
-	  
+
       <div id="gunts" class="section clearfix">
         <div class="section-header clearfix">
           <h2>The Gunts</h2>
@@ -95,7 +95,7 @@
             <p>Few pass the rigorous testing that is the Gunt interview process. These hardened technical warriors are the core elite that lead all our cutting edge projects. Rollover to get to know a little more about these complicated yet beautiful specimens of creativity.</p>
           </div>
         </div>
-        
+
         <div class="section-content">
           <ul class="gunts clearfix">
             <li id="gunts-pg">
@@ -383,22 +383,22 @@
                   <!--<a href="#">Visit the site</a>-->
                   <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="" />
                 </li>
-              
+
                 <li class="slideshow-slide">
                   <h3>bees wearing hats</h3>
                   <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
                   <img src="includes/img/casestudies-beesinhats.png" alt="" />
                 </li>
-              
+
                 <li class="slideshow-slide">
                   <h3>Spactacles</h3>
                   <p>Emerging onto the East-London Spackcore scene like warriors from battlesmoke, Spactacles were a shot in the arm to a genre that was dangerously on the verge of self-parody.
-                  <br/>  
+                  <br/>
                   Heralded as pioneers of the phigital musical performance for their innovative mix of digital technology and aggressively physical live show. Gorrilaz later copied this.
                   <br/>
                   Spactacles are currently on indefinite hiatus.</p>
                   <img src="includes/img/casestudies-spac.jpg" alt="" />
-                </li>      
+                </li>
               </ul>
             </div>
         </div>
@@ -412,15 +412,15 @@
             We’re not in the habit of working with just anyone and we’re probably not going to work with you either. However if you think your project might just be edgy enough, then let us take it to the next digital level. Drop us an email at <a href="mailto:canyoumakeourlogobigger@guntlondon.co">canyoumakeourlogobigger@guntlondon.com</a>.
           </p>
         </div>
-                
-        <div class="section-content">
+
+        <div id="map-wrap" class="section-content">
           <div id="gmap"></div>
         </div>
 
       </div>
 
     </div>
-     
+
   </div>
 </div>
 
@@ -450,7 +450,7 @@
   <script defer src="includes/js/mylibs/jquery.flexslider.min.js"></script>
   <script defer src="includes/js/mylibs/waypoints.min.js"></script>
   <script defer src="includes/js/script.js"></script>
-  
+
   <script>
     window._gaq = [['_setAccount','UA-29684348-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
@@ -461,6 +461,6 @@
   <!--[if lt IE 7 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->  
+  <![endif]-->
 </body>
 </html>

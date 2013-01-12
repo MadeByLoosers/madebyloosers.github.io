@@ -399,6 +399,11 @@ GUNT.goatse = (function(){
         mouseleave: function(){
           $(this).next().addClass("hidden");
           $('.photo').removeClass('de-emphasise');
+        },
+
+        // prevent ios double-take of alt state
+        touchend: function(e) {
+          e.preventDefault();
         }
       });
 
