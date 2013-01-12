@@ -376,18 +376,55 @@
           <div class="slideshow">
               <ul class="slides">
                 <li class="slideshow-slide">
+                  <h3>The Unit Deconverter</h3>
+                  <p>Have you ever wondered how many Blue Whale penises will fit into 10 meters? Or how many Michael Van Wijk's (Wolf from Gladiators) are in 2.5 tons?<br/>
+                  Then wonder no more! <br/>
+                  The Unit Deconverter turns useful units into everyone's favourite vital statistics.</p>
+                  <p><a href="http://unitdeconverter.com" rel="external">Visit the site</a></p>
+                  <img src="includes/img/casestudies-unit-deconverter.jpg" alt="The Unit Deconverter" />
+                </li>
+
+                <li class="slideshow-slide">
+                  <h3>Campaign For Real Names</h3>
+                  <p>Are you having trouble naming a new-born? Why not use the Campaign for Real Names to find a delightful yet under-used name. A name with pedigree. A name with history.</p>
+                  <p><a href="http://campaignforrealnames.com" rel="external">Visit the site</a></p>
+                  <img src="includes/img/casestudies-real-names.jpg" alt="The campaign for real names" />
+                </li>
+
+                <?php
+                /*
+                <li class="slideshow-slide">
+                  <h3>Favourite Question</h3>
+                  <p>What's that burning question you've always wanted to ask?<br/>
+                  Through Twitter and this website, you can add your answers and check to see what everyone else thinks.</p>
+                  <p><a href="http://favouritequestion.com" rel="external">Visit the site</a></p>
+                  <img src="includes/img/casestudies-favourite-q.jpg" alt="Favourite Question" />
+                </li>
+                */
+                ?>
+
+                <li class="slideshow-slide">
+                  <h3>Guntmas</h3>
+                  <p>To celebrate the end of year generic non-denominational seasonal winter festivalmas, we produced this Twitter-seeded Gunt e-card. Inspired by the current trend of lightly scripted entertainment shows, we collaborated with the expert Amy-Jean Smith (Make-up artist) &amp; Jessica Nurse (Model).</p>
+                  <p><a href="http://guntmas.guntlondon.com" rel="external">Visit the site</a></p>
+                  <img src="includes/img/casestudies-guntmas.jpg" alt="Guntmas" />
+                </li>
+
+
+<?php /*
+                <li class="slideshow-slide">
+                  <h3>bees wearing hats</h3>
+                  <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
+                  <img src="includes/img/casestudies-beesinhats.png" alt="" />
+                </li>
+
+                <li class="slideshow-slide">
                   <h3>Hot girls and metal</h3>
                   <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
                   <br/>
                   The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
                   <!--<a href="#">Visit the site</a>-->
                   <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="" />
-                </li>
-
-                <li class="slideshow-slide">
-                  <h3>bees wearing hats</h3>
-                  <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
-                  <img src="includes/img/casestudies-beesinhats.png" alt="" />
                 </li>
 
                 <li class="slideshow-slide">
@@ -399,6 +436,7 @@
                   Spactacles are currently on indefinite hiatus.</p>
                   <img src="includes/img/casestudies-spac.jpg" alt="" />
                 </li>
+*/ ?>
               </ul>
             </div>
         </div>
@@ -441,13 +479,13 @@
     </div>
   </footer>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="includes/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
   <script defer src="includes/js/plugins.js"></script>
   <script defer src="includes/js/mylibs/raphael.js"></script>
   <script defer src="includes/js/mylibs/jquery.smoothscroll.js"></script>
-  <script defer src="includes/js/mylibs/jquery.flexslider.min.js"></script>
+  <script defer src="includes/js/mylibs/jquery.flexslider-min.js"></script>
   <script defer src="includes/js/mylibs/waypoints.min.js"></script>
   <script defer src="includes/js/script.js"></script>
 

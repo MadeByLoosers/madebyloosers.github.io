@@ -452,6 +452,16 @@ GUNT.goatse = (function(){
         start: function(slider) {
           // fixes all slides being visible at start
           $('.slides li').not(':first').css('display', 'none');
+        },
+
+        // potential iOS fix - slides not displaying properly on init
+        before: function(slider) {
+          var nextSlide = $('.slides li').get(slider.animatingTo),
+              $nextSlide = $(nextSlide),
+              visibility = $nextSlide.css('opacity');
+          if (visibility === 0 || visibility === "0") {
+              $nextSlide.css("display", "block");
+          }
         }
       });
 

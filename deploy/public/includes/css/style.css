@@ -484,8 +484,7 @@
   }
 
   .slideshow .slideshow-slide h3,
-  .slideshow .slideshow-slide p,
-  .slideshow .slideshow-slide a {
+  .slideshow .slideshow-slide p {
     width: 460px;
     float: right;
     clear: both;
@@ -497,7 +496,7 @@
   }
 
   .slideshow .slideshow-slide a {
-    margin-top: 30px;
+    margin-top: 10px;
     font-style: italic;
   }
 
@@ -522,6 +521,16 @@
 
   .flex-direction-nav li a {
     font-style: italic;
+    background:none;
+    text-indent:0;
+    opacity:1;
+    width:auto;
+    height:auto;
+    position:static;
+    margin-top:0px;
+  }
+
+  .flex-direction-nav li a.flex-next {
   }
 
   .flex-direction-nav li a:hover {
@@ -958,6 +967,10 @@
         width: 100%;
         float: none;
         padding-right: 0;
+      }
+
+      .slideshow .slideshow-slide h3 {
+        font-size:24px;
       }
 
       .flex-direction-nav {
