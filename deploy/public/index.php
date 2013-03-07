@@ -376,6 +376,14 @@
           <div class="slideshow">
               <ul class="slides">
                 <li class="slideshow-slide">
+                  <h3>Favourite Question</h3>
+                  <p>What's that burning question you've always wanted to ask?<br/>
+                  Through Twitter and this website, you can add your answers and check to see what everyone else thinks.</p>
+                  <p><a href="http://favouritequestion.com" rel="external">Visit Favourite Question</a></p>
+                  <img src="includes/img/casestudies-favourite-q.jpg" alt="Favourite Question" />
+                </li>
+
+                <li class="slideshow-slide">
                   <h3>The Unit Deconverter</h3>
                   <p>Have you ever wondered how many Blue Whale penises will fit into 10 meters? Or how many Michael Van Wijks (Wolf from Gladiators) are in 2.5 tons?<br/>
                   Then wonder no more! <br/>
@@ -390,18 +398,6 @@
                   <p><a href="http://campaignforrealnames.com" rel="external">Visit the Campaign For Real Names</a></p>
                   <img src="includes/img/casestudies-real-names.jpg" alt="The campaign for real names" />
                 </li>
-
-                <?php
-                /*
-                <li class="slideshow-slide">
-                  <h3>Favourite Question</h3>
-                  <p>What's that burning question you've always wanted to ask?<br/>
-                  Through Twitter and this website, you can add your answers and check to see what everyone else thinks.</p>
-                  <p><a href="http://favouritequestion.com" rel="external">Visit Favourite Question</a></p>
-                  <img src="includes/img/casestudies-favourite-q.jpg" alt="Favourite Question" />
-                </li>
-                */
-                ?>
 
                 <li class="slideshow-slide">
                   <h3>Guntmas</h3>
