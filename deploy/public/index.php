@@ -376,6 +376,29 @@
           <div class="slideshow">
               <ul class="slides">
                 <li class="slideshow-slide">
+                  <h3>Noisebox</h3>
+                  <p>Broadcasting noise across the internet since 1972<br/>
+                  NoiseBox allows anyone to play sound clips through another computer</p>
+                  <p><a href="http://noisebox.co" rel="external">Visit Noisebox</a></p>
+                  <img src="includes/img/casestudies-noisebox.jpg" alt="Noisebox" />
+                </li>
+
+                <li class="slideshow-slide">
+                  <h3>Kong's Jungle</h3>
+                  <p>ooh ooh aah aah aah ... <br/>
+                  An HTML5 / Canvas platform game based on our very own Matt k0nG Collins</p>
+                  <p><a href="http://kongsjungle.co.uk" rel="external">Visit Kong's Jungle</a></p>
+                  <img src="includes/img/casestudies-kongs-jungle.jpg" alt="Kong's Jungle" />
+                </li>
+
+                <li class="slideshow-slide">
+                  <h3>Weblebrity Trumps</h3>
+                  <p>Like a who’s who of the information superhighway websphere, Weblebrity Trumps turns the web's elite into a gamification experience based on social media and internet proliferation.</p>
+                  <p><a href="http://weblebritytrumps.com" rel="external">Visit Weblebrity Trumps</a></p>
+                  <img src="includes/img/casestudies-weblebrity-trumps.jpg" alt="Weblebrity Trumps" />
+                </li>
+
+                <li class="slideshow-slide">
                   <h3>Favourite Question</h3>
                   <p>What's that burning question you've always wanted to ask?<br/>
                   Through Twitter and this website, you can add your answers and check to see what everyone else thinks.</p>
@@ -400,6 +423,15 @@
                 </li>
 
                 <li class="slideshow-slide">
+                  <h3>Hot girls and metal</h3>
+                  <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
+                  <br/>
+                  The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
+                  <p><a href="http://hotgirlsandmetal.com/" rel="external">Visit the site</a></p>
+                  <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="Hot girls &amp; metal" />
+                </li>
+
+                <li class="slideshow-slide">
                   <h3>Guntmas</h3>
                   <p>To celebrate the end of year generic non-denominational seasonal winter festivalmas, we produced this Twitter-seeded Gunt e-card. Inspired by the current trend of lightly scripted entertainment shows, we collaborated with the expert Amy-Jean Smith (Make-up artist) &amp; Jessica Nurse (Model).</p>
                   <p><a href="http://guntmas.guntlondon.com" rel="external">Visit the Guntmas card</a></p>
@@ -407,22 +439,12 @@
                 </li>
 
                 <li class="slideshow-slide">
-                  <h3>bees wearing hats</h3>
+                  <h3>Bees Wearing Hats</h3>
                   <p>Quite simply the internets Bees wearing hats website. There's a real media buzz about it.</p>
                   <img src="includes/img/casestudies-beesinhats.png" alt="" />
                 </li>
 
-
 <?php /*
-                <li class="slideshow-slide">
-                  <h3>Hot girls and metal</h3>
-                  <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
-                  <br/>
-                  The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
-                  <!--<a href="#">Visit the site</a>-->
-                  <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="" />
-                </li>
-
                 <li class="slideshow-slide">
                   <h3>Spactacles</h3>
                   <p>Emerging onto the East-London Spackcore scene like warriors from battlesmoke, Spactacles were a shot in the arm to a genre that was dangerously on the verge of self-parody.
