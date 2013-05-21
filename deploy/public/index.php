@@ -423,12 +423,12 @@
                 </li>
 
                 <li class="slideshow-slide">
-                  <h3>Hot girls and metal</h3>
+                  <h3>Hot Girls and Metal</h3>
                   <p>Our highly focussed market research team discovered an undiscovered niche cross-over market in fans of the heavy metal music genre and indivudals that enjoy attractive women girating rythmatically.
                   <br/>
                   The site received an incredibly popular alpha launch on December 2011, and was herrelded by the new media press as "a great Christmas presents for lovers of innovative API use". This project will be being taken to the next level in 2012.</p>
-                  <p><a href="http://hotgirlsandmetal.com/" rel="external">Visit the site</a></p>
-                  <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="Hot girls &amp; metal" />
+                  <p><a href="http://hotgirlsandmetal.com/" rel="external">Visit Hot Girls and Metal</a></p>
+                  <img src="includes/img/casestudies-hotgirlsandmetal.jpg" alt="Hot girls and metal" />
                 </li>
 
                 <li class="slideshow-slide">
