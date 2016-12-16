@@ -26,7 +26,7 @@ var LOOSERS = LOOSERS || {};
 
     LOOSERS.initLinks.init();
 
-    LOOSERS.gmap.init();
+    // LOOSERS.gmap.init();
 
     LOOSERS.parallax.init();
 
