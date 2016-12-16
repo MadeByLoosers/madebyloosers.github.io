@@ -1,38 +1,38 @@
 /*
 
-Author: John Lund, Creative Director of {gunt} London.
+Author: John Lund, Creative Director of {Made By Loosers}.
 
-{gunt}...digital topiary.
+{Made By Loosers}...digital topiary.
 
 */
 
-var GUNT = GUNT || {};
+var LOOSERS = LOOSERS || {};
 
 
 /*
-  GUNT Core
+  LOOSERS Core
   */
 
-  GUNT.core = (function () {
+  LOOSERS.core = (function () {
 
 
     function init() {
 
-    //GUNT.startupRoutine.init();
+    LOOSERS.title.init();
 
-    GUNT.waypoints.init();
+    LOOSERS.waypoints.init();
 
-    GUNT.goatse.init();
+    LOOSERS.goatse.init();
 
-    GUNT.initLinks.init();
+    LOOSERS.initLinks.init();
 
-    GUNT.gmap.init();
+    LOOSERS.gmap.init();
 
-    GUNT.parallax.init();
+    LOOSERS.parallax.init();
 
-    GUNT.gunts.init();
+    LOOSERS.loosers.init();
 
-    GUNT.caseStudies.init();
+    LOOSERS.caseStudies.init();
   }
 
   return {
@@ -45,68 +45,44 @@ var GUNT = GUNT || {};
 
 
 /*
-  Startup routine
+  Title
   */
 
-  GUNT.startupRoutine = (function () {
+  LOOSERS.title = (function () {
 
 
-    var settings = {
-      delay: 0,
-      messages: [
-      '0% : - initialisation started',
-      '10% :: - enabling core',
-      '20% :: - sequential algorithms loading',
-      '30% ::: - primary systems verified',
-      '40% :::: - ignition locked',
-      '50% ::::: - phase shift adjustments calibrated',
-      '60% :::::: - booting to first tier',
-      '70% ::::::: - base established, loading secondary functions',
-      '80% :::::::: - tertiary presentation fields normalised',
-      '90% ::::::::: - preliminary system overrides disabled',
-      '100% ::::::::: - gunt activation complete',
-      '********************************\n    welcome to... the future    \n********************************'
-      ]
-    };
-
+    var tagLines = [
+      "So future it hurts",
+      "We did tomorrow yesterday",
+      "Taking the internet to the next level",
+      "Viva la Loosers!",
+      "The start of a revolution",
+      "The world is our oyster",
+      "Digitally engineering for tomorrow",
+      "Reverse engineering the future",
+      "Masterizing the tricks",
+      "Future web digisavants",
+      "Burst dotcom bubbles",
+      "Making your digital dreams a reality",
+      "Maxifying the value proposition of YOUR digital destinations"
+    ];
 
     function init() {
 
-      var s = settings;
-
-      for (var i = 0; i < s.messages.length; i++) {
-
-        outputSystemMessage(s.messages[i]);
-
-      }
+      var tagline = tagLines[Math.floor(Math.random() * tagLines.length)];
+      $("#tagline").text(tagline);
+      $("title").append(" | ").append(tagline);
 
     }
-
-
-    function outputSystemMessage( msg ) {
-
-      var s = settings;
-
-      s.delay += (Math.floor(Math.random()*11) * 100);
-
-      setTimeout(function () {
-
-        console.log(msg);
-
-      }, s.delay);
-
-    }
-
 
     return {
       init : init
     };
 
-
   })();
 
 
-GUNT.waypoints = (function(){
+LOOSERS.waypoints = (function(){
 
 
   var settings = {};
@@ -126,7 +102,7 @@ GUNT.waypoints = (function(){
       }
 
       if ( target == "approach" ) {
-        setTimeout(GUNT.goatse.animate, 1000);
+        setTimeout(LOOSERS.goatse.animate, 1000);
       }
 
       $("#primary-nav li.selected").removeClass("selected");
@@ -145,7 +121,7 @@ GUNT.waypoints = (function(){
 /*
   init goatse graphic
  */
-GUNT.goatse = (function(){
+LOOSERS.goatse = (function(){
 
   var
     settings = {},
@@ -330,7 +306,7 @@ GUNT.goatse = (function(){
 /*
   misc actions on links
   */
-  GUNT.initLinks = (function(){
+  LOOSERS.initLinks = (function(){
 
     var settings = {
       smooth : '#primary-nav a',
@@ -358,9 +334,9 @@ GUNT.goatse = (function(){
 
 
 /*
-  The gunts section
+  The loosers section
   */
-  GUNT.gunts = (function(){
+  LOOSERS.loosers = (function(){
 
     var settings = {};
 
@@ -368,7 +344,7 @@ GUNT.goatse = (function(){
       setInterval(function () {
         var value;
 
-        $('.gunts li .photo').each(function(index){
+        $('.loosers li .photo').each(function(index){
           var that = this;
 
           value = $(that).css('background-position-y') == '100%' ? '0%' : '100%' ;
@@ -385,7 +361,7 @@ GUNT.goatse = (function(){
       var s = settings;
 
       // highlight and de-emphasise on mouseover
-      $('.gunts li .photo').on({
+      $('.loosers li .photo').on({
         mouseenter: function(){
           $(this).next().removeClass("hidden");
           $('.photo').addClass('de-emphasise');
@@ -412,12 +388,12 @@ GUNT.goatse = (function(){
       // enter the password to activate bonus mode
       var
         kkeys = [],
-        password = "71,85,78,84,83"; //this spells gunts
+        password = "71,85,78,84,83"; //this spells loosers
 
           $(window).on('keydown', function(e){
             kkeys.push( e.keyCode );
                 if ( kkeys.toString().indexOf( password ) >= 0 ) {
-                    location.href = "#gunts";
+                    location.href = "#loosers";
                     bonus();
                 }
             });
@@ -435,7 +411,7 @@ GUNT.goatse = (function(){
 /*
   The projects section
   */
-  GUNT.caseStudies = (function(){
+  LOOSERS.caseStudies = (function(){
 
     var settings = {};
 
@@ -479,7 +455,7 @@ GUNT.goatse = (function(){
   Parallax
   */
 
-  GUNT.parallax = (function () {
+  LOOSERS.parallax = (function () {
 
 
     var settings = {
@@ -553,7 +529,7 @@ GUNT.goatse = (function(){
   Google Maps
   */
 
-  GUNT.gmap = (function () {
+  LOOSERS.gmap = (function () {
 
 
     var settings = {
@@ -567,7 +543,7 @@ GUNT.goatse = (function(){
 
       var script = document.createElement("script");
       script.type = "text/javascript";
-      script.src = "http://maps.googleapis.com/maps/api/js?sensor=false&callback=GUNT.gmap.loadMap";
+      script.src = "http://maps.googleapis.com/maps/api/js?sensor=false&callback=LOOSERS.gmap.loadMap";
       document.body.appendChild(script);
 
     }
@@ -612,7 +588,7 @@ GUNT.goatse = (function(){
         marker = new google.maps.Marker({
           position: s.center,
           map: map,
-          title: "Gunt London headquarters",
+          title: "Made By Loosers HQ",
           icon: image
         });
 
@@ -632,6 +608,6 @@ GUNT.goatse = (function(){
 
 $(document).ready(function () {
 
-  GUNT.core.init();
+  LOOSERS.core.init();
 
 });

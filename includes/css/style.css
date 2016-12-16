@@ -245,8 +245,8 @@
     z-index: 2001;
   }
 
-  /* Gunt pink - #ff969a */
-  /* Gunt green - #72ea91 */
+  /* Looser pink - #ff969a */
+  /* Looser green - #72ea91 */
 
   /* headings */
   h1 {
@@ -451,7 +451,7 @@
 	background: url(../img/bg_infographic.png) repeat left top;
   }
 
-  #gunts, #case-studies {
+  #loosers, #case-studies {
     padding-top: 93px;
   }
 
@@ -557,7 +557,7 @@
     padding: 0;
   }
 
-  ul.gunts {
+  ul.loosers {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -567,12 +567,12 @@
     margin-bottom: 30px;
   }
 
-  .gunts li {
+  .loosers li {
     float: left;
     position: relative;
   }
 
-  .gunts li .photo {
+  .loosers li .photo {
     width: 172px;
     height: 234px;
     margin: 0 20px 20px 0;
@@ -581,7 +581,7 @@
   }
 
   /* additional background image for deamphasis */
-  .gunts li .de-emphasise {
+  .loosers li .de-emphasise {
     background-color: transparent, transparent;
     background-image: url(../img/bg-diagonals.png), url(../img/team-sprite.jpg);
     background-repeat: repeat, no-repeat;
@@ -591,91 +591,91 @@
   /* firefox doesn't support background-position-x
      do all sprite positioning manually */
 
-    .gunts #gunts-pg .photo {
+    .loosers #loosers-pg .photo {
       background-position: 0  top;
     }
 
-    .gunts #gunts-pg .photo:hover {
+    .loosers #loosers-pg .photo:hover {
       background-position: 0 bottom;
     }
 
-    .gunts #gunts-jb .photo {
+    .loosers #loosers-jb .photo {
       background-position: -172px top;
     }
 
-    .gunts #gunts-jb .photo:hover {
+    .loosers #loosers-jb .photo:hover {
       background-position: -172px bottom;
     }
 
-    .gunts #gunts-pxg .photo {
+    .loosers #loosers-pxg .photo {
       background-position: -344px top;
     }
 
-    .gunts #gunts-pxg .photo:hover {
+    .loosers #loosers-pxg .photo:hover {
       background-position: -344px bottom;
     }
 
-    .gunts #gunts-ma .photo {
+    .loosers #loosers-ma .photo {
       background-position: -516px top;
     }
 
-    .gunts #gunts-ma .photo:hover {
+    .loosers #loosers-ma .photo:hover {
       background-position: -516px bottom;
     }
 
-    .gunts #gunts-ml .photo {
+    .loosers #loosers-ml .photo {
       background-position: -688px top;
     }
 
-    .gunts #gunts-ml .photo:hover {
+    .loosers #loosers-ml .photo:hover {
       background-position: -688px bottom;
     }
 
-    .gunts #gunts-cl .photo {
+    .loosers #loosers-cl .photo {
       background-position: -860px top;
     }
 
-    .gunts #gunts-cl .photo:hover {
+    .loosers #loosers-cl .photo:hover {
       background-position: -860px bottom;
     }
 
-    .gunts #gunts-jl .photo {
+    .loosers #loosers-jl .photo {
       background-position: -1032px top;
     }
 
-    .gunts #gunts-jl .photo:hover {
+    .loosers #loosers-jl .photo:hover {
       background-position: -1032px bottom;
     }
 
-    .gunts #gunts-np .photo {
+    .loosers #loosers-np .photo {
       background-position: -1204px top;
     }
 
-    .gunts #gunts-np .photo:hover {
+    .loosers #loosers-np .photo:hover {
       background-position: -1204px bottom;
     }
 
-    .gunts #gunts-mc .photo {
+    .loosers #loosers-mc .photo {
       background-position: -1376px top;
     }
 
-    .gunts #gunts-mc .photo:hover {
+    .loosers #loosers-mc .photo:hover {
       background-position: -1376px bottom;
     }
 
-    .gunts #gunts-you .photo {
+    .loosers #loosers-you .photo {
       background-position: -1548px top;
     }
 
-    .gunts #gunts-you .photo:hover {
+    .loosers #loosers-you .photo:hover {
       background-position: -1548px bottom;
     }
 
-    .gunts li .photo:hover {
+    .loosers li .photo:hover {
       background-position-y: bottom;
     }
 
-  .gunts .info {
+  .loosers .info {
     width: 324px;
     height: 194px;
     margin-left: 192px;
@@ -686,41 +686,41 @@
     z-index: 150;
   }
 
-  .gunts .info.alt-position {
+  .loosers .info.alt-position {
     margin-left: -384px;
   }
 
-  .gunts .info h3 {
+  .loosers .info h3 {
     float:none;
     color: #111;
     font-size: 20px;
     width:auto;
   }
 
-  .gunts .info h4 {
+  .loosers .info h4 {
     margin: 5px 0 10px 0;
   }
 
-  .gunts .info h4,
-  .gunts .info dt {
+  .loosers .info h4,
+  .loosers .info dt {
     font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
     color: #111;
     font-size: 14px;
   }
 
-  .gunts .info p {
+  .loosers .info p {
     margin-bottom: 10px;
     color:#111;
     font-size:12px;
     line-height:18px;
   }
 
-  .gunts .info dd {
+  .loosers .info dd {
     color: #111;
     font-size:12px;
   }
 
-  #gunts .section-content {
+  #loosers .section-content {
     clear:both;
   }
 
@@ -746,7 +746,7 @@
 
   footer .copyright {
     display: block;
-    float: left;
+    float: right;
     padding: 29px 0 0;
   }
 
@@ -820,7 +820,7 @@
   }
 
 
-  /* Gunt london mobile styles */
+  /* Looser mobile styles */
   @media only screen and (max-width: 980px) {
     img {
       max-width:100% !important;
@@ -891,7 +891,7 @@
     /* sections */
       #home,
       #case-studies,
-      #gunts {
+      #loosers {
         padding-top:0;
       }
 
@@ -913,17 +913,17 @@
 	}
 
     /* team */
-      ul.gunts,
-      ul.gunts li,
-      ul.gunts li .photo,
-      ul.gunts li .info {
+      ul.loosers,
+      ul.loosers li,
+      ul.loosers li .photo,
+      ul.loosers li .info {
         margin:0 auto;
         text-align:center;
         float:none;
         position: static;
       }
 
-      ul.gunts li .info {
+      ul.loosers li .info {
         display:block !important;
         visibility:visible !important;
         width: 150px;
@@ -934,16 +934,16 @@
         position: static;
       }
 
-      .gunts .info h4 {
+      .loosers .info h4 {
         margin-bottom:0;
       }
 
-      .gunts .info p,
-      .gunts .info dl {
+      .loosers .info p,
+      .loosers .info dl {
         display:none;
       }
 
-      .gunts li .de-emphasise {
+      .loosers li .de-emphasise {
         background-image: url(../img/team-sprite.jpg);
       }
 
