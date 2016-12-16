@@ -543,7 +543,7 @@ LOOSERS.goatse = (function(){
 
       var script = document.createElement("script");
       script.type = "text/javascript";
-      script.src = "http://maps.googleapis.com/maps/api/js?sensor=false&callback=LOOSERS.gmap.loadMap";
+      script.src = "https://maps.googleapis.com/maps/api/js?sensor=false&callback=LOOSERS.gmap.loadMap";
       document.body.appendChild(script);
 
     }
